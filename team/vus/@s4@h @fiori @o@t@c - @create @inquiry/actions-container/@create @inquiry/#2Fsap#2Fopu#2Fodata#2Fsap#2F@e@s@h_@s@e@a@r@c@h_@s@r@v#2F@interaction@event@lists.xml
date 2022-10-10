@@ -1,0 +1,95 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/1e69f84a-d1c3-464c-836d-2adf5fe4760e.zip"
+    slaProfileEnabled="false" thinkTime="1535"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1e69f84a-d1c3-464c-836d-2adf5fe4760e">
+    <embedded-action>b5d2f174-713e-4806-8389-e568d0b9cc61</embedded-action>
+    <embedded-action>ecb9f93c-9625-4df5-abce-f6a0c29980b9</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/1e69f84a-d1c3-464c-836d-2adf5fe4760e.zip"
+    recordedResponseCode="201" responseSize="721"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="b5d2f174-713e-4806-8389-e568d0b9cc61" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e445e189-3c60-4c40-a1d9-b9dad5b8346d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e445e189-3c60-4c40-a1d9-b9dad5b8346d.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"/>
+    <header name="SAP-PASSPORT" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202030364631373131313230414334313737424336363137343938364545353645312020200007A9D8C54B23C644C9BDAA4CD799DBD8F30000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="x-csrf-token" value="${SAP_CSRF_Token}"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <header name="X-XHR-Logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <responseHeaders>HTTP/1.1 201 Created&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 721&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists(1)&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 50968.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"ID":1,"SessionID":"F714BDA5132E4B5FA2A17F0B8079E43E","Events":[{"ID":1,"Type":"SESSION_START","Timestamp":"\\/Date(1627031394442)\\/","Parameters":[]}]}]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhYXZtMDI4MDAyX1M0SF8wMCUzYUh0cm1UMmNKRkVyY3BjMVlDZklURDA0OFRuMHotR0dyZ1JRbFh5QXYtQVRU)/bc/gui/sap/its/webgui/batch/json"
+    path="/sap(${SAP_Action_Path})/bc/gui/sap/its/webgui/batch/json"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/1e69f84a-d1c3-464c-836d-2adf5fe4760e.zip"
+    recordedResponseCode="200" responseSize="95"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="ecb9f93c-9625-4df5-abce-f6a0c29980b9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_dbb93558-4104-44d9-9154-354e34c4db76</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dbb93558-4104-44d9-9154-354e34c4db76.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="false" encodeValue="true"
+        name="~RG_WEBGUI" recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-statistics" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="Accept" value="multipart/mixed"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="moin" value="${SAP_Moin}"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net?~transaction=VA11&amp;~nosplash=1&amp;sap-client=100&amp;sap-language=EN&amp;sap-ui-tech-hint=GUI&amp;sap-ie=edge&amp;sap-theme=sap_belize&amp;sap-target-navmode=explace&amp;sap-touch=0&amp;sap-shell=FLP1.71.20"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 [0] OK&#xd;
+content-type: multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8&#xd;
+content-length: 95&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-perf-fesrec: 1538.000000&#xd;
+sap-statistics: icftotal=1,icfauth=0,icfext=20,icmtotal=3,icmreqrcv=1,icmext=2,wdtotal=201,wdreqrcv=198,wdext=3</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"value/wnd[0]/usr/ctxtVBAK-AUART","content":"zin","logic":"ignore"}]]]></textPostContent>
+</http-action>

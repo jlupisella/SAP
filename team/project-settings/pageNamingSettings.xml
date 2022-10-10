@@ -1,0 +1,5 @@
+<pageNamingSettings>
+    <template value="$title$"/>
+    <template value="$plugin$"/>
+    <template value="$path$"/>
+</pageNamingSettings>

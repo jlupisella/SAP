@@ -1,0 +1,35 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel_1"
+    path="/sap/bc/apc/iwngw/notification_push_apc" postType="2"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="22e9a0e8-b581-4765-8333-23bf05182f76" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-responses/res_22e9a0e8-b581-4765-8333-23bf05182f76</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-requests/req_2f40b834-5aab-49a4-8998-2ba67d71e226.txt</requestContentFileDescription>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="Sec-WebSocket-Key" value="Na5SVeA2ANKMClIKNpzexA=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: L5lQqcA0y4X6MdEYgRkuGW2/d+Y=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 4493.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-responses/websocket_d00390fb-617d-405d-8b5f-05634045493f.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

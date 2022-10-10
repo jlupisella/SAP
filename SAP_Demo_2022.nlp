@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=SAP_Demo_2022
+project.version=8.6
+project.original.version=8.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.9.0
+project.is-open-test-settings-after-upload=true
+project.id=12eea79f-0c5c-4861-9efe-64f3fe200397
+project.config.path=team
+project.config.storage=XML_MULTI
+team.server.enabled=true
+team.server.project=/jlupisella/SAP

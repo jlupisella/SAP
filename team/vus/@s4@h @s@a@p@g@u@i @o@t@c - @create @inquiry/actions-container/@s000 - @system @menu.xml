@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="S000 - System Menu" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="37d9cdfa-d3ef-439c-ac2e-eaa4a8b2b126" weightsEnabled="false">
+    <weighted-embedded-action uid="752c30c8-3dd4-4066-9075-794b8171ab46"/>
+    <weighted-embedded-action uid="c4460ceb-09d5-4689-96df-ee623a9bf016"/>
+    <weighted-embedded-action uid="66128054-2cdb-49e3-b5fc-08c01dac016f"/>
+    <weighted-embedded-action uid="d6363c9e-bdb7-4437-8783-d728f653331b"/>
+    <weighted-embedded-action uid="d5ac41d6-480b-4a27-b162-875dc4807772"/>
+    <weighted-embedded-action uid="3d2ded98-fcf5-4b0d-b936-711162300a11"/>
+</basic-logical-action-container>

@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiTextField (Cust. Reference)" uid="bd2b5da5-c2db-4c15-8a38-b77d6dbe7258">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/txtVBKD-BSTKD"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBKD-BSTKD"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="Test Accelerator"/>
+    <responsePageFileDescription>recorded-responses/res_ce532390-584a-45a7-a236-db6f3dc639dc</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@s4@h @s@a@p@g@u@i @o@t@c - @create @inquiry/%resources%/recorded-screenshots/sc_ce532390-584a-45a7-a236-db6f3dc639dc.0.jpg</screenshotFileDescription>
+</custom-action>

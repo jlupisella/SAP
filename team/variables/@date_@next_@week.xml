@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="3" inc-value="7" name="Date_Next_Week" order="1" pattern="MM/dd/yyyy" policy="1" range="2" uid="1ece36ae-d4bb-45ed-b577-f5a27be4e123" whenOutOfValues="CYCLE_VALUES"/>

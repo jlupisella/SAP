@@ -1,0 +1,230 @@
+<http-page executeResourcesDynamically="false" name="Loading"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/4ea37d36-1cf9-42af-ac6d-5e00240305af.zip"
+    slaProfileEnabled="false" thinkTime="3180"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4ea37d36-1cf9-42af-ac6d-5e00240305af">
+    <embedded-action>cd1331c0-c932-470a-a42a-8d5645c85a87</embedded-action>
+    <embedded-action>c9f8629b-a56c-41cb-b815-78ecb0018307</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/4ea37d36-1cf9-42af-ac6d-5e00240305af.zip"
+    recordedResponseCode="302"
+    refererUid="ba3a320e-679a-420f-b033-eb74bced2c4c" responseSize="5"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="cd1331c0-c932-470a-a42a-8d5645c85a87" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[c2FwLXN5c3RlbS1sb2dpbi1vbmlucHV0cHJvY2Vzc2luZz1vbkxvZ2luJnNhcC11cmxzY2hlbWU9JnNhcC1zeXN0ZW0tbG9naW49b25Mb2dpbiZzYXAtc3lzdGVtLWxvZ2luLWJhc2ljX2F1dGg9JnNhcC1hY2Nlc3NpYmlsaXR5PSZzYXAtc3lzdGVtLWxvZ2luLWNvb2tpZV9kaXNhYmxlZD0mc2FwLWhhc2g9SlRJelUyRnNaWE5KYm5GMWFYSjVMV055WldGMFpTVXpSbk5oY0MxMWFTMTBaV05vTFdocGJuUWxNMFJIVlVrJnNhcC11c2VyPWZyYWdhJnNhcC1wYXNzd29yZD0ke0F1dG9QYXNzd29yZF8zfSZzYXAtY2xpZW50PTEwMCZfX3NhcC1zbF9fZHVtbXk9MSZzYXAtbGFuZ3VhZ2U9RU4=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_38bc925b-5006-414e-b389-ecdb9daa64ba.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_38bc925b-5006-414e-b389-ecdb9daa64ba.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="SAP_SessionID" regExp="SAP_SESSIONID_S4H_100=(.*?);"
+        regExpAdv="SAP_SESSIONID_S4H_100=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="531f2174-720c-43bf-b913-bbcfd6003f6f" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="SAP_SSO_Token" regExp="MYSAPSSO2=(.*?);"
+        regExpAdv="MYSAPSSO2=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="8a399de7-2b81-44d2-aa5d-446f979d438a" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="SAP_ContextId" regExp="&amp;sap-contextid=(\S{10,})"
+        regExpAdv="&amp;sap-contextid=(\S{10,})" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="604c9e72-4361-4695-afc4-6426836551b6" xpath=""/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login-oninputprocessing"
+        recordRawValue="onLogin" separator="=" value="onLogin" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ba3a320e-679a-420f-b033-eb74bced2c4c"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-system-login[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-system-login[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="8321741e-f595-42af-b950-2a68978081cf" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name="sap-urlscheme"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login" recordRawValue="onLogin" separator="="
+        value="onLogin" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ba3a320e-679a-420f-b033-eb74bced2c4c"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-system-login[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-system-login[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="708c59da-da00-43c9-bba4-8ce16982cd9b" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login-basic_auth" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-accessibility" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login-cookie_disabled" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-hash"
+        recordRawValue="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk"
+        separator="="
+        value="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="false" name="sap-user"
+        recordRawValue="fraga" separator="="
+        value="${SAP_Login.Username}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-password"
+        recordRawValue="${AutoPassword_3}" separator="="
+        value="${SAP_Login.Password}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ba3a320e-679a-420f-b033-eb74bced2c4c"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-client[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']sap-client[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="ef88aa40-02f0-4adb-b0dc-762e45aaaf95" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="__sap-sl__dummy" recordRawValue="1" separator="="
+        value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="1"
+            extractTypeAdv="1" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ba3a320e-679a-420f-b033-eb74bced2c4c"
+            regExp="sap-language=([^&amp;]*?)&amp;"
+            regExpAdv="sap-language=([^&amp;]*?)&amp;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="b8d378fc-c403-444a-a1a6-3ed53521fefe" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="_sap-hash"
+        recordRawValue="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk"
+        separator="="
+        value="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 302 Moved temporarily&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 5&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+location: /sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?_sap-hash=JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk&amp;sap-system-login=X&amp;sap-system-login-cookie=X&amp;sap-contextid=SID:ANON:avm028002_S4H_00:Htrm5CsU90S_7XKpJMjQcEmQtQkz-GGugRQkyhp5-ATT&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 33344.000000&#xd;
+set-cookie: MYSAPSSO2=AjQxMDMBABhGAFIAQQBHAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMQAwADcAMgAzADAAOQAwADkABQAEAAAACAYAAlgACQACRQD%2fAPwwgfkGCSqGSIb3DQEHAqCB6zCB6AIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHIMIHFAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjEwNzIzMDkwOTM5WjAjBgkqhkiG9w0BCQQxFgQUPtBhj3fIChWEI3VAHDarUr50HfMwCQYHKoZIzjgEAwQvMC0CFQCBk2mYKe5bvU%2fp0KT9Bvt84LoBQgIUGTuSDLkaJGJKjEqPsCLkxKfg370%3d; path=/; secure; HttpOnly; SameSite=None&#xd;
+set-cookie: SAP_SESSIONID_S4H_100=4P-K9EZoIgI-N6orkF131LW7ib_rlRHrhR8ADTpE36E%3d; path=/; secure; HttpOnly; SameSite=None</responseHeaders>
+    <record-html-infos extractorId="LOGIN_FORM"
+        extractorName="loginForm" extractorOccurence="1"
+        extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/4ea37d36-1cf9-42af-ac6d-5e00240305af.zip"
+    recordedResponseCode="200"
+    refererUid="cd1331c0-c932-470a-a42a-8d5645c85a87"
+    responseSize="3767" serverUid="sapdemo21.tricentis.com"
+    slaProfileEnabled="false" uid="c9f8629b-a56c-41cb-b815-78ecb0018307" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_03d1e989-7d79-4811-86e3-596ba25b2398.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_03d1e989-7d79-4811-86e3-596ba25b2398.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_sap-hash"
+        recordRawValue="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk"
+        separator="="
+        value="JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-system-login-cookie" recordRawValue="X" separator="="
+        value="X" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="sap-contextid"
+        recordRawValue="SID:ANON:avm028002_S4H_00:Htrm5CsU90S_7XKpJMjQcEmQtQkz-GGugRQkyhp5-ATT"
+        separator="="
+        value="SID:ANON:avm028002_S4H_00:Htrm5CsU90S_7XKpJMjQcEmQtQkz-GGugRQkyhp5-ATT" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhGAFIAQQBHAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMQAwADcAMgAzADAAOQAwADkABQAEAAAACAYAAlgACQACRQD%2fAPwwgfkGCSqGSIb3DQEHAqCB6zCB6AIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHIMIHFAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjEwNzIzMDkwOTM5WjAjBgkqhkiG9w0BCQQxFgQUPtBhj3fIChWEI3VAHDarUr50HfMwCQYHKoZIzjgEAwQvMC0CFQCBk2mYKe5bvU%2fp0KT9Bvt84LoBQgIUGTuSDLkaJGJKjEqPsCLkxKfg370%3d; SAP_SESSIONID_S4H_100=4P-K9EZoIgI-N6orkF131LW7ib_rlRHrhR8ADTpE36E%3d"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 1544&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 1282.000000&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

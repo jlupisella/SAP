@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="SAP_Users251855b3-116a-400b-b3b4-56145014ef6e.csv" name="SAP_Login" offset="1" order="1" policy="4" range="2" uid="8c4758a4-27de-4463-b198-5adde409f261" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Password" number="1"/>
+<column name="Username" number="0"/>
+</variable-file>

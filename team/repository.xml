@@ -1,0 +1,184 @@
+<!--****** MONITORED HOSTS ******-->
+<monitored-host-system host-name="" load-generator="false" proxy-id="" uid="NeoLoad">
+    <embedded-action>a37766ec-f09f-45a0-9481-b5ac9676e610</embedded-action>
+</monitored-host-system>
+<!--****** END MONITORED HOSTS ******-->
+<!--****** MONITOR CONNECTIONS ******-->
+<connection-system interval="1000" name="NeoLoad" server-port="0" uid="a37766ec-f09f-45a0-9481-b5ac9676e610">
+    <monitor-category name="Default" short-display-name="Default">
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="UserLoad" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="throughput" sampling="0" unit="Mb/s"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="Alerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="CriticalAlerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="WarningAlerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="cpu" sampling="0"
+            threshold="4bd7a7c1-2830-4210-bb11-8b68a6b4e256" unit="%"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="memory" sampling="0"
+            threshold="472f6b8c-3880-40be-9ee5-ca5e394e6b40" unit="%"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="threadcount" sampling="0" unit=""/>
+        <monitor-category name="Load Generator Connections" short-display-name="Load Generator Connections">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="connectedlg" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="totallgdisconnections"
+                sampling="0"
+                threshold="44dee5bd-49ec-4cb2-a1ba-7ac9297865cb" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="totallgreconnections" sampling="0" unit=""/>
+        </monitor-category>
+        <monitor-category name="Network" short-display-name="Network">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="otcp.NeoLoad" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="tcp.NeoLoad" sampling="0" unit=""/>
+            <monitor-category
+                name="wlan0 (Intel(R) Dual Band Wireless-AC 8265)" short-display-name="wlan0 (Intel(R) Dual Band Wireless-AC 8265)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wlan0" sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wlan0" sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="eth6 (Intel(R) Ethernet Connection (4) I219-LM)" short-display-name="eth6 (Intel(R) Ethernet Connection (4) I219-LM)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~eth6" sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~eth6" sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="eth3 (Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64)" short-display-name="eth3 (Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~eth3" sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~eth3" sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)" short-display-name="wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wlan3" sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wlan3" sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="eth9 (TAP-NordVPN Windows Adapter V9)" short-display-name="eth9 (TAP-NordVPN Windows Adapter V9)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~eth9" sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~eth9" sampling="0" unit="Mb/s"/>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="NeoLoad Web" short-display-name="NeoLoad Web">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="nlwebdownload" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="nlwebupload" sampling="0" unit=""/>
+        </monitor-category>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="SapUserLoad" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="CitrixUserLoad" sampling="0" unit=""/>
+    </monitor-category>
+    <threshold enabled="true" uid="4bd7a7c1-2830-4210-bb11-8b68a6b4e256">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Controller CPU high.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU du Contrôleur surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Controller CPU high.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU du Contrôleur surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="472f6b8c-3880-40be-9ee5-ca5e394e6b40">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="44dee5bd-49ec-4cb2-a1ba-7ac9297865cb">
+        <threshold-condition durationKind="NB_OF_TIMES"
+            durationNumber="1" operator="GREATER_THAN" severity="LOW"
+            valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Load Generator Diconnected &gt;=1</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Injecteur  déconnecté &gt;= 1</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+</connection-system>
+<!--****** END MONITOR CONNECTIONS ******-->
+<!--****** DASHBOARDS  ******-->
+<!--****** END DASHBOARDS  ******-->
+<!--****** RESULTS GRAPH DESC TEMPLATES ******-->
+<charts-templates-description name="template.customs"/>
+<!--****** END RESULTS GRAPH DESC TEMPLATES******-->
+<!--****** CloudModel ******-->
+<cloud-model>
+    <!--****** Cloud Workgroups ******-->
+    <cloud-workgroup id="a0320000009R6MnAAK" licenseMode="CLASSIC" name="PS Neotys USA"/>
+    <!--******End Cloud  Workgroups ******-->
+    <!--******Cloud sessions******-->
+    <cloud-session architecture="MEDIUM" cost="2" duration="3600"
+        endDate="1660663680000" id="1660659838498" licenseMode="CLASSIC"
+        name="SAP_Demo_2022" nlBuildNumber="20220105-45"
+        nlPatchVersion="V8.0.2" owner="j.lupisella@tricentis.com"
+        startDate="1660660080000" status="TERMINATED" workgroupId="a0320000009R6MnAAK">
+        <cloud-timezone id="America/New_York"
+            longName="(GMT-05:00) Eastern Daylight Time (America/New_York)"
+            mediumName="(GMT-05:00) EDT" shortName="EDT"/>
+    </cloud-session>
+    <!--******End Cloud sessions ******-->
+    <!--******Cloud lgs ******-->
+    <cloud-lg createDate="1660660006000" endDate="1660664377000"
+        id="1660659838498-1471" port="443"
+        publicIPAddress="20.115.135.77" runningDate="1660660124000"
+        sessionId="1660659838498" status="TERMINATED" zoneName="USA West - California (Los Angeles 1)"/>
+    <cloud-lg createDate="1660659877000" endDate="1660664061000"
+        id="1660659838498-1470" port="443"
+        publicIPAddress="35.234.249.87" runningDate="1660659960000"
+        sessionId="1660659838498" status="TERMINATED" zoneName="North-America Canada (Montreal 4)"/>
+    <!--******End Cloud lgs ******-->
+</cloud-model>

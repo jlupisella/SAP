@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/7933e2f8-bfd6-4d78-b945-22844aaf16b4.zip"
+    slaProfileEnabled="false" thinkTime="261"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7933e2f8-bfd6-4d78-b945-22844aaf16b4">
+    <embedded-action>138206e2-2b9b-4d72-a114-0e319ba5d3de</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/7933e2f8-bfd6-4d78-b945-22844aaf16b4.zip"
+    recordedResponseCode="200" responseSize="14281"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="138206e2-2b9b-4d72-a114-0e319ba5d3de" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_98e464a2-24a0-4a38-bef0-1f361da335f0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_98e464a2-24a0-4a38-bef0-1f361da335f0.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?_sap-hash=JTIzU2FsZXNJbnF1aXJ5LWNyZWF0ZSUzRnNhcC11aS10ZWNoLWhpbnQlM0RHVUk&amp;sap-system-login=X&amp;sap-system-login-cookie=X&amp;sap-contextid=${SAP_ContextId}"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 2901&#xd;
+expires: -1&#xd;
+cache-control: no-store&#xd;
+x-ua-compatible: IE=edge&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 208247.000000&#xd;
+content-encoding: gzip&#xd;
+set-cookie: sap-contextid=SID%3aANON%3aavm028002_S4H_00%3aHtrm27zk49at-tpGcssbb7NkTAkz-GGsgRTGMhoH-NEW; path=/sap/bc/ui2/start_up; HttpOnly; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

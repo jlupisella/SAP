@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SESSION_MANAGER" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d220da2b-f195-4aa1-9af3-efe8ec1a3271" weightsEnabled="false">
+    <weighted-embedded-action uid="c37b6edc-479b-4769-ad85-29d03121358b"/>
+    <weighted-embedded-action uid="90c9c66e-075f-407e-b2d9-5f32a85787c7"/>
+    <weighted-embedded-action uid="cdd3b8d4-f7a3-4614-86ac-088bce0d40c0"/>
+    <weighted-embedded-action uid="9a2cf719-3a47-4dc1-b9f6-eb739fc26020"/>
+    <weighted-embedded-action uid="2343a39d-bb16-4722-b54f-33681d617f42"/>
+</basic-logical-action-container>

@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Channels('SAP_WEBSOCKET"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/b40f1a37-8ebb-4033-8684-3c59437a6166.zip"
+    slaProfileEnabled="false" thinkTime="5"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b40f1a37-8ebb-4033-8684-3c59437a6166">
+    <embedded-action>0763cc65-a2bd-4b7c-a09a-8df1434b68c3</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json;odata.metadata=minimal; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Channels('SAP_WEBSOCKET')"
+    path="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Channels('SAP_WEBSOCKET')"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s4@h @fiori @o@t@c - @create @inquiry/%resources%/recorded-artifacts/b40f1a37-8ebb-4033-8684-3c59437a6166.zip"
+    recordedResponseCode="200" responseSize="175"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="0763cc65-a2bd-4b7c-a09a-8df1434b68c3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0a414cdd-54e0-4a3f-8e5e-52663d992392</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0a414cdd-54e0-4a3f-8e5e-52663d992392.txt</requestContentFileDescription>
+    <header name="Accept" value="application/atomsvc+xml;q=0.8, application/json;odata=fullmetadata;q=0.7, application/json;q=0.5, */*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="MaxDataServiceVersion" value="3.0"/>
+    <header name="Referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"/>
+    <header name="SAP-PASSPORT" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202032393633413633463946433534374134394136373038373538433742433531392020200007A9D8C54B23C644C9BDAA4CD799DBD8F30000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <header name="X-XHR-Logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+content-type: application/json;odata.metadata=minimal; charset=utf-8&#xd;
+content-length: 175&#xd;
+odata-version: 4.0&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 11303.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

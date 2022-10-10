@@ -1,0 +1,58 @@
+<population uid="JeffPop">
+    <split cache="1" factor="100.0" virtualUserUid="S4H Fiori OTC - Create Inquiry">
+        <browser-profile acceptEncoding="GZIP,DEFLATE" connections="6"
+            cookies="true" http2="false" icon-name="chrome"
+            name="Chrome 20.0" userAgent="Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="0.0" virtualUserUid="S4H SAPGUI OTC - Create Inquiry">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="100Mbps" downloadLatency="204ms"
+            downloadPacketLoss="0%" isRadio="false"
+            name="bandwidth.custom"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="100Mbps"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="0.0" virtualUserUid="S4H Fiori OTC - Create Inquiry">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true"
+            icon-name="iphone10" name="iPhone XI" userAgent="Mozilla/5.0 (iPhone Xi; CPU iPhone OS 12_0_0 like Mac OS 10.11) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/12.0.0 Mobile/15A372 Safari/604.5.6"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="5Mbps" downloadLatency="288ms"
+            downloadPacketLoss="1%" isRadio="false"
+            name="bandwidth.custom"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="2Mbps"
+            uploadLatency="40ms" uploadPacketLoss="0%"/>
+    </split>
+</population>
