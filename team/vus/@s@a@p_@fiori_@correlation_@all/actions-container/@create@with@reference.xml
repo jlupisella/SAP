@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CreateWithReference" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="be3fb434-ac81-4bd1-9c9e-3f91184d28ba" weightsEnabled="false">
+    <weighted-embedded-action uid="a31d1c29-e84a-426b-a28f-7c77f3d4d3c4"/>
+    <weighted-embedded-action uid="2c37d321-f7cb-487e-8ec8-a73b6cb3aac9"/>
+    <weighted-embedded-action uid="45585628-0a1f-44f8-b4ce-7f598f5efca5"/>
+    <weighted-embedded-action uid="d7d1f85d-e69b-43ca-bf7a-2f0ea1ede95c"/>
+    <weighted-embedded-action uid="0cf6d1c9-324e-4103-802f-8e41f69bc9ee"/>
+</basic-logical-action-container>

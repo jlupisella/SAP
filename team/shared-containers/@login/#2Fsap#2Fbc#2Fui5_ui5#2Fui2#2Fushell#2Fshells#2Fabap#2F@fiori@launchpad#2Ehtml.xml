@@ -1,0 +1,247 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    slaProfileEnabled="true" slaProfileName="Firori" thinkTime="20000"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="120d95b4-fcf8-4f9b-865d-cad9b17b6baf">
+    <embedded-action>22d39d6f-40f7-41b9-a356-48bb22f2dbc1</embedded-action>
+    <embedded-action>4b5f1da5-3a4e-494c-8961-e7e06abccb8c</embedded-action>
+    <embedded-action>c22681a4-b2a7-40ee-9337-498853ad40b2</embedded-action>
+    <embedded-action>6ea89822-5aa5-4f33-8fbe-4d3ff0a1a45d</embedded-action>
+    <embedded-action>524d57e2-0a67-4830-9387-7ad7881ea37a</embedded-action>
+    <embedded-action>083f02e3-ea29-4b5d-b437-90fc250a8129</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6b7b14c9-4433-4e2f-9dde-5f91da8b3828.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200" responseSize="7241"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="22d39d6f-40f7-41b9-a356-48bb22f2dbc1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_be132701-28e1-4aea-b047-9ace5e840c90.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_be132701-28e1-4aea-b047-9ace5e840c90.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 2305&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 28020.000000&#xd;
+content-encoding: br&#xd;
+set-cookie: sap-usercontext=sap-language=EN&amp;sap-client=100; path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 15 Jan 2019 09:14:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/public/bc/ui2/logon/themes/sap_belize/library.css"
+    path="/sap/public/bc/ui2/logon/themes/sap_belize/library.css"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200" responseSize="7120"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="4b5f1da5-3a4e-494c-8961-e7e06abccb8c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9ea8c1a4-faa9-445b-8225-95254a451597.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9ea8c1a4-faa9-445b-8225-95254a451597.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/css&#xd;
+content-length: 1596&#xd;
+last-modified: Tue, 15 Jan 2019 09:14:05 GMT&#xd;
+sap-dms: KW&#xd;
+ms-author-via: DAV&#xd;
+cache-control: max-age=31536000&#xd;
+x-content-type-options: nosniff&#xd;
+sap-server: true&#xd;
+content-encoding: br&#xd;
+date: Thu, 26 Jan 2023 13:49:17 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 07 Aug 2019 15:03:54 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/public/bc/ui2/logon/fiori3/js/login.js"
+    path="/sap/public/bc/ui2/logon/fiori3/js/login.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200"
+    refererUid="22d39d6f-40f7-41b9-a356-48bb22f2dbc1"
+    responseSize="36420" serverUid="sapdemo21.tricentis.com"
+    slaProfileEnabled="true" slaProfileName="Firori"
+    uid="c22681a4-b2a7-40ee-9337-498853ad40b2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a4c22ba4-1ddc-4b7d-b09e-ca307dacb20f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a4c22ba4-1ddc-4b7d-b09e-ca307dacb20f.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/x-javascript&#xd;
+content-length: 8468&#xd;
+last-modified: Wed, 07 Aug 2019 15:03:54 GMT&#xd;
+sap-dms: KW&#xd;
+ms-author-via: DAV&#xd;
+cache-control: max-age=31536000&#xd;
+x-content-type-options: nosniff&#xd;
+sap-server: true&#xd;
+content-encoding: br&#xd;
+date: Thu, 26 Jan 2023 13:49:17 GMT</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Sat, 04 May 2013 17:06:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/public/bc/ui2/logon/img/sap_logo.png"
+    path="/sap/public/bc/ui2/logon/img/sap_logo.png" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="6ea89822-5aa5-4f33-8fbe-4d3ff0a1a45d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3838511d-4e7e-4b3c-891b-107f7bcc73bb.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6b794131-a7bc-49f6-8654-90276394ff76.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/png&#xd;
+content-length: 10105&#xd;
+last-modified: Sat, 04 May 2013 17:06:24 GMT&#xd;
+sap-dms: KW&#xd;
+ms-author-via: DAV&#xd;
+cache-control: max-age=31536000&#xd;
+x-content-type-options: nosniff&#xd;
+sap-server: true&#xd;
+date: Thu, 26 Jan 2023 13:49:17 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/ico"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 23 Sep 2013 17:06:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/public/bc/ui2/logon/img/favicon.ico"
+    path="/sap/public/bc/ui2/logon/img/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="524d57e2-0a67-4830-9387-7ad7881ea37a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d464225b-d7c4-44a4-bb80-ecad1637b854</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_302d29e1-2ca1-40ce-ba5f-5ff1da55e9f4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/ico&#xd;
+content-length: 6277&#xd;
+last-modified: Mon, 23 Sep 2013 17:06:47 GMT&#xd;
+sap-dms: KW&#xd;
+ms-author-via: DAV&#xd;
+cache-control: max-age=31536000&#xd;
+x-content-type-options: nosniff&#xd;
+sap-server: true&#xd;
+content-encoding: br&#xd;
+date: Thu, 26 Jan 2023 13:49:17 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 15 Jun 2016 14:28:53 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/public/bc/ui2/logon/themes/sap_belize/img/background.jpg"
+    path="/sap/public/bc/ui2/logon/themes/sap_belize/img/background.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@login/%resources%/recorded-artifacts/120d95b4-fcf8-4f9b-865d-cad9b17b6baf.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="083f02e3-ea29-4b5d-b437-90fc250a8129" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ee0153f7-c09a-4270-a994-7afae03a0b12</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_daa950ea-69bf-4e3c-98c9-ece8454166a8.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/public/bc/ui2/logon/themes/sap_belize/library.css"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+content-length: 101305&#xd;
+last-modified: Wed, 15 Jun 2016 14:28:53 GMT&#xd;
+sap-dms: KW&#xd;
+ms-author-via: DAV&#xd;
+cache-control: max-age=31536000&#xd;
+x-content-type-options: nosniff&#xd;
+sap-server: true&#xd;
+date: Thu, 26 Jan 2023 13:49:17 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

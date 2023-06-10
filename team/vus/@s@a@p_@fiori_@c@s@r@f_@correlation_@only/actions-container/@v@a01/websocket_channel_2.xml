@@ -1,0 +1,43 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel_2"
+    path="/sap/bc/apc/iwngw/notification_push_apc" postType="6"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="b89fdfb9-c61b-4ef7-ba52-819b9fad5d94" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@a@p_@fiori_@c@s@r@f_@correlation_@only/%resources%/recorded-responses/res_aa1e8411-29c5-427d-8afe-8c8edf99eaff</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@a@p_@fiori_@c@s@r@f_@correlation_@only/%resources%/recorded-requests/req_7f4bace9-effd-4aa6-abc3-a16c2c1cbd6e.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive, Upgrade"/>
+    <header name="Cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-Fetch-Dest" value="websocket"/>
+    <header name="Sec-Fetch-Mode" value="websocket"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate"/>
+    <header name="Sec-WebSocket-Key" value="9/15SEs7jS4LIgNchDI/zA=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: EKXi9OKYfA/rbu5BJo22XlTxdOo=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 8593.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@a@p_@fiori_@c@s@r@f_@correlation_@only/%resources%/recorded-responses/websocket_9e97c99d-2636-4c64-aa28-5954912d3f71_1674742722784.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

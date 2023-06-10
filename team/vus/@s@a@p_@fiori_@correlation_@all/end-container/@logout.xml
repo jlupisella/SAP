@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Logout" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="f7ed8502-336a-42f1-b416-05428f75ca20" weightsEnabled="false">
+    <weighted-embedded-action uid="b8ca6da3-4682-4cd3-a976-beea61331a4a"/>
+    <weighted-embedded-action uid="f01256b2-d73c-4b0a-b621-ce799033d03f"/>
+    <weighted-embedded-action uid="4c8d4b56-f8e5-4079-a19e-a7dd1c5bf500"/>
+</basic-logical-action-container>

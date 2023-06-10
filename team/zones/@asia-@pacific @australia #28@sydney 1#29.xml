@@ -1,0 +1,6 @@
+<zone cloudProvider="Amazon Web Services" dnsOverrideEnabled="false"
+    latitude="-33.687782" longitude="151.281738" proxyType="NO_PROXY"
+    proxyTypeLg="COMMON" uid="Asia-Pacific Australia (Sydney 1)">
+    <description>Asia-Pacific Australia (Sydney 1)</description>
+    <embedded-action>7d5c92f6-920c-4887-b2b1-ad5aac82baa3</embedded-action>
+</zone>

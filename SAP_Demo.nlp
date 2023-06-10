@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=SAP_Demo
+project.version=8.7
+project.original.version=8.7
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=9.1.0
+project.is-open-test-settings-after-upload=false
+project.id=ea6080b9-1aba-4b7b-b2b8-b551083c8551
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+team.server.project=/jlupisella/SAP

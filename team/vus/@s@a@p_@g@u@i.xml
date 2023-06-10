@@ -1,0 +1,36 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="SAP_GUI" uid="SAP_GUI">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="987d6694-6025-4871-b64b-f45d78c1ea3a"/>
+        <weighted-embedded-action uid="67655351-148b-46a5-9141-b1d2ce91a798"/>
+        <weighted-embedded-action uid="2f20d680-50ea-4010-8772-d4b1941a83e6"/>
+        <weighted-embedded-action uid="cf8c8d98-78b0-456b-af7c-fb5883528299"/>
+        <weighted-embedded-action uid="d9a6fa04-bfc1-4cf9-8633-245103351c51"/>
+        <weighted-embedded-action uid="23b978e9-8b20-4392-a4a5-8294a5b6e244"/>
+        <weighted-embedded-action uid="fa5515f0-ba98-4b21-a387-c2f6a0353d7f"/>
+        <weighted-embedded-action uid="b4366c72-b964-422c-8d98-00e63bdc7574"/>
+        <weighted-embedded-action uid="214901aa-1ada-40e3-8159-f70d9da82481"/>
+        <weighted-embedded-action uid="2fb6060d-0d7b-40a6-8be5-910bcaf90213"/>
+        <weighted-embedded-action uid="d635827c-d7b5-49b8-bbf0-1ba8f969f7a0"/>
+        <weighted-embedded-action uid="b596f96c-d6b3-41ca-9b2d-db4ba6bc7a88"/>
+        <weighted-embedded-action uid="d159602f-a0e5-44e7-8256-a2a7d8c7ea7a"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

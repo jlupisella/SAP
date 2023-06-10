@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori_@correlation_@all/%resources%/recorded-artifacts/3b65ef1c-794a-440c-af08-5c4595cdafae.zip"
+    slaProfileEnabled="true" slaProfileName="Firori" thinkTime="1522"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3b65ef1c-794a-440c-af08-5c4595cdafae">
+    <embedded-action>578122a1-3eae-42b2-b097-641baeb24d45</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6976aa76-90d6-41b4-8387-3ddb43c539fd.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori_@correlation_@all/%resources%/recorded-artifacts/3b65ef1c-794a-440c-af08-5c4595cdafae.zip"
+    recordedResponseCode="201" responseSize="721"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="578122a1-3eae-42b2-b097-641baeb24d45" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_100ab383-d1cd-4c19-89d7-5161db2d8c0a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_100ab383-d1cd-4c19-89d7-5161db2d8c0a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="accept" value="application/json"/>
+    <header name="te" value="trailers"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E656420202020202020202020202020202020202020204438464139433045433534353434464538463042363233354231364433363946202020000756A8DA133AB94B628F0E6893F10841490000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${ExtractedVariable_x-csrf-token}"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 721&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists(1)&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 49241.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"ID":1,"SessionID":"FA6DB2B58DA349D8BE321D44576EFDD1","Events":[{"ID":1,"Type":"SESSION_START","Timestamp":"\\/Date(1674741210721)\\/","Parameters":[]}]}]]></textPostContent>
+</http-action>

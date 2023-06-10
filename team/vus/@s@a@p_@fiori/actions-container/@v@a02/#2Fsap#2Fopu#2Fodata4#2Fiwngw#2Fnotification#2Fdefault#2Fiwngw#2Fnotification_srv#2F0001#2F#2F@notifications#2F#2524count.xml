@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Notifications/%24count"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/01f9a27e-2b00-4b84-a3a9-546e89efd0c8.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="01f9a27e-2b00-4b84-a3a9-546e89efd0c8">
+    <embedded-action>ae293cb2-cbf1-41b2-886d-953bd0084b9b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_fc6f6c72-e98c-472a-910a-8a48203ba583.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Notifications/$count"
+    path="/sap/opu/odata4/iwngw/notification/default/iwngw/notification_srv/0001//Notifications/$count"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/01f9a27e-2b00-4b84-a3a9-546e89efd0c8.zip"
+    recordedResponseCode="200" responseSize="1"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="ae293cb2-cbf1-41b2-886d-953bd0084b9b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d6a0993b-3206-4b73-a30c-9b5486d89763</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d6a0993b-3206-4b73-a30c-9b5486d89763.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept" value="application/atomsvc+xml;q=0.8, application/json;odata=fullmetadata;q=0.7, application/json;q=0.5, */*;q=0.1"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="te" value="trailers"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202037413836393041453139423634333541414532444637354645344336444531302020200007516F53AB153A47F9B52ED5926F89E4A50000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain; charset=utf-8&#xd;
+content-length: 1&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+odata-version: 4.0&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 10739.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

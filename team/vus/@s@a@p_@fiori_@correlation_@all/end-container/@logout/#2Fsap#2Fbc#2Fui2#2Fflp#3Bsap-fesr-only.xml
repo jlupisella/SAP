@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/bc/ui2/flp;sap-fesr-only"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori_@correlation_@all/%resources%/recorded-artifacts/4c8d4b56-f8e5-4079-a19e-a7dd1c5bf500.zip"
+    slaProfileEnabled="true" slaProfileName="Firori" thinkTime="5"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4c8d4b56-f8e5-4079-a19e-a7dd1c5bf500">
+    <embedded-action>a594faa8-f6d4-4ed2-89c1-a7f3f1c06218</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_31a1a19b-6119-4178-af01-e834cef942e4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/bc/ui2/flp;sap-fesr-only"
+    path="/sap/bc/ui2/flp;sap-fesr-only" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori_@correlation_@all/%resources%/recorded-artifacts/4c8d4b56-f8e5-4079-a19e-a7dd1c5bf500.zip"
+    recordedResponseCode="200" responseSize="8523"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="a594faa8-f6d4-4ed2-89c1-a7f3f1c06218" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[c2FwLWZlc3Itb25seT0xJlNBUC1QZXJmLUZFU1JlYz01NkE4REExMzNBQjk0QjYyOEYwRTY4OTNGMTA4NDE0OSwwRDlBRjg2QjY4N0Q0RjRBOTY2MTM1MkJFNUM3RjI4Niw5ODYsMzg2NywxNTc4OSwyMSx1bmRldGVybWluZWRfc3RhcnR1cF8wLDIzMyw2MzM5LHdpbl8xMCxTQVBfVUk1U0FQLVBlcmYtRkVTUmVjLW9wdCxGTFBAREVFUF9MSU5LLCxmZl8xMDksMjQ3NDcsNjE4MTEyLCwsMTA5MzYsLCwsLCwwLCwyLCwyMDIzMDEyNjEzNTMyNzA4NixzYXAudXNoZWxsLmNvbXBvbmVudHMuc2hlbGwuTm90aWZpY2F0aW9ucyZTQVAtUGVyZi1GRVNSZWM9NTZBOERBMTMzQUI5NEI2MjhGMEU2ODkzRjEwODQxNDksLDAsMCwyNiwwLG1lQXJlYUhlYWRlckJ1dHRvbl9jbGlja18wLDAsMCx3aW5fMTAsU0FQX1VJNVNBUC1QZXJmLUZFU1JlYy1vcHRlbGwucmVuZGVyZXJzLmZpb3JpMixlYUhlYWRlckJ1dHRvbl9jbGljaywsZmZfMTA5LDAsMCwsLDI2LCwsLCwsMCwsMiwsMjAyMzAxMjYxMzUzNDg1Mzgsc2FwLnVzaGVsbC5yZW5kZXJlcnMuZmlvcmkyJlNBUC1QZXJmLUZFU1JlYz01NkE4REExMzNBQjk0QjYyOEYwRTY4OTNGMTA4NDE0OSwsMCwwLDMyLDAsX19saXN0MC03LWxvZ291dEJ0bl9jbGlja18xLDAsMCx3aW5fMTAsU0FQX1VJNVNBUC1QZXJmLUZFU1JlYy1vcHR1bmRldGVybWluZWQsdDAtNy1sb2dvdXRCdG5fY2xpY2ssLGZmXzEwOSwwLDAsLCwzMiwsLCwsLDAsLDIsLDIwMjMwMTI2MTM1MzUwNDI4LHVuZGV0ZXJtaW5lZA==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_1c8ca085-2574-4ead-8499-3fc25c3c8f84.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1c8ca085-2574-4ead-8499-3fc25c3c8f84.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-fesr-only"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="56A8DA133AB94B628F0E6893F1084149,0D9AF86B687D4F4A9661352BE5C7F286,986,3867,15789,21,undetermined_startup_0,233,6339,win_10,SAP_UI5SAP-Perf-FESRec-opt,FLP@DEEP_LINK,,ff_109,24747,618112,,,10936,,,,,,0,,2,,20230126135327086,sap.ushell.components.shell.Notifications"
+        separator="="
+        value="56A8DA133AB94B628F0E6893F1084149,0D9AF86B687D4F4A9661352BE5C7F286,986,3867,15789,21,undetermined_startup_0,233,6339,win_10,SAP_UI5SAP-Perf-FESRec-opt,FLP@DEEP_LINK,,ff_109,24747,618112,,,10936,,,,,,0,,2,,20230126135327086,sap.ushell.components.shell.Notifications" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="56A8DA133AB94B628F0E6893F1084149,,0,0,26,0,meAreaHeaderButton_click_0,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optell.renderers.fiori2,eaHeaderButton_click,,ff_109,0,0,,,26,,,,,,0,,2,,20230126135348538,sap.ushell.renderers.fiori2"
+        separator="="
+        value="56A8DA133AB94B628F0E6893F1084149,,0,0,26,0,meAreaHeaderButton_click_0,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optell.renderers.fiori2,eaHeaderButton_click,,ff_109,0,0,,,26,,,,,,0,,2,,20230126135348538,sap.ushell.renderers.fiori2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="56A8DA133AB94B628F0E6893F1084149,,0,0,32,0,__list0-7-logoutBtn_click_1,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optundetermined,t0-7-logoutBtn_click,,ff_109,0,0,,,32,,,,,,0,,2,,20230126135350428,undetermined"
+        separator="="
+        value="56A8DA133AB94B628F0E6893F1084149,,0,0,32,0,__list0-7-logoutBtn_click_1,0,0,win_10,SAP_UI5SAP-Perf-FESRec-optundetermined,t0-7-logoutBtn_click,,ff_109,0,0,,,32,,,,,,0,,2,,20230126135350428,undetermined" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-client=100"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 8523&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 26408.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

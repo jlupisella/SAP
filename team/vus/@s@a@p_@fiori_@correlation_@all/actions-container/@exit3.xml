@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Exit3" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="7fe7894b-6245-47e5-89f2-ae3022c6849b" weightsEnabled="false">
+    <weighted-embedded-action uid="4de0bdbd-0eaa-4b3b-95bb-3965b9b0586b"/>
+    <weighted-embedded-action uid="790bd56a-4d0c-4a46-abae-22fee242d7e7"/>
+</basic-logical-action-container>

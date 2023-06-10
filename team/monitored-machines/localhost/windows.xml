@@ -1,0 +1,835 @@
+<connection-win interval="5000" login="" name="windows" password=""
+    server-address="localhost" server-port="0" uid="9b98f934-9794-45d8-9dff-d2e26d0e22bd">
+    <monitor-category name="AppV Client Streamed Data Percentage" short-display-name="AppV Client Streamed Data Percentage">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="AppV Client Streamed Data Percentage/Primary Feature % Streamed"
+            path="\\localhost\AppV Client Streamed Data Percentage(*)\Primary Feature % Streamed"
+            sampling="0" short-display-name="Primary Feature % Streamed" unit=""/>
+    </monitor-category>
+    <monitor-category name="Authorization Manager Applications" short-display-name="Authorization Manager Applications">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Authorization Manager Applications/Number of Scopes loaded in memory"
+            path="\\localhost\Authorization Manager Applications(*)\Number of Scopes loaded in memory"
+            sampling="0"
+            short-display-name="Number of Scopes loaded in memory" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Authorization Manager Applications/Total number of scopes"
+            path="\\localhost\Authorization Manager Applications(*)\Total number of scopes"
+            sampling="0" short-display-name="Total number of scopes" unit=""/>
+    </monitor-category>
+    <monitor-category name="BitLocker" short-display-name="BitLocker">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Max Read Split Size (C:)"
+            path="\\localhost\BitLocker(C:)\Max Read Split Size"
+            sampling="0" short-display-name="Max Read Split Size (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Max Write Split Size (C:)"
+            path="\\localhost\BitLocker(C:)\Max Write Split Size"
+            sampling="0" short-display-name="Max Write Split Size (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Min Read Split Size (C:)"
+            path="\\localhost\BitLocker(C:)\Min Read Split Size"
+            sampling="0" short-display-name="Min Read Split Size (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Min Write Split Size (C:)"
+            path="\\localhost\BitLocker(C:)\Min Write Split Size"
+            sampling="0" short-display-name="Min Write Split Size (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Read Requests/sec (C:)"
+            path="\\localhost\BitLocker(C:)\Read Requests/sec"
+            sampling="0" short-display-name="Read Requests/sec (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Read Subrequests/sec (C:)"
+            path="\\localhost\BitLocker(C:)\Read Subrequests/sec"
+            sampling="0" short-display-name="Read Subrequests/sec (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Write Requests/sec (C:)"
+            path="\\localhost\BitLocker(C:)\Write Requests/sec"
+            sampling="0" short-display-name="Write Requests/sec (C:)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BitLocker/Write Subrequests/sec (C:)"
+            path="\\localhost\BitLocker(C:)\Write Subrequests/sec"
+            sampling="0" short-display-name="Write Subrequests/sec (C:)" unit=""/>
+    </monitor-category>
+    <monitor-category name="Bluetooth Device" short-display-name="Bluetooth Device">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/Classic ACL bytes read/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\Classic ACL bytes read/sec"
+            sampling="0"
+            short-display-name="Classic ACL bytes read/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/Classic ACL bytes written/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\Classic ACL bytes written/sec"
+            sampling="0"
+            short-display-name="Classic ACL bytes written/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/LE ACL bytes read/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\LE ACL bytes read/sec"
+            sampling="0"
+            short-display-name="LE ACL bytes read/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/LE ACL bytes written/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\LE ACL bytes written/sec"
+            sampling="0"
+            short-display-name="LE ACL bytes written/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/SCO bytes read/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\SCO bytes read/sec"
+            sampling="0"
+            short-display-name="SCO bytes read/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Device/SCO bytes written/sec (Keyboard K850 (f6f60794d80c))"
+            path="\\localhost\Bluetooth Device(Keyboard K850 (f6f60794d80c))\SCO bytes written/sec"
+            sampling="0"
+            short-display-name="SCO bytes written/sec (Keyboard K850 (f6f60794d80c))" unit=""/>
+    </monitor-category>
+    <monitor-category name="Bluetooth Radio" short-display-name="Bluetooth Radio">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/ACL flush events/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\ACL flush events/sec"
+            sampling="0" short-display-name="ACL flush events/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Classic ACL bytes read/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Classic ACL bytes read/sec"
+            sampling="0" short-display-name="Classic ACL bytes read/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Classic ACL bytes written/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Classic ACL bytes written/sec"
+            sampling="0"
+            short-display-name="Classic ACL bytes written/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Classic ACL Connections"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Classic ACL Connections"
+            sampling="0" short-display-name="Classic ACL Connections" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Classic ACL write credits"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Classic ACL write credits"
+            sampling="0" short-display-name="Classic ACL write credits" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Inquiry Scan Duty Cycle (%)"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Inquiry Scan Duty Cycle (%)"
+            sampling="0"
+            short-display-name="Inquiry Scan Duty Cycle (%)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Inquiry Scan Interval"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Inquiry Scan Interval"
+            sampling="0" short-display-name="Inquiry Scan Interval" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Inquiry Scan Window"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Inquiry Scan Window"
+            sampling="0" short-display-name="Inquiry Scan Window" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE ACL bytes read/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE ACL bytes read/sec"
+            sampling="0" short-display-name="LE ACL bytes read/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE ACL bytes written/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE ACL bytes written/sec"
+            sampling="0" short-display-name="LE ACL bytes written/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE ACL Connections"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE ACL Connections"
+            sampling="0" short-display-name="LE ACL Connections" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE ACL write credits"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE ACL write credits"
+            sampling="0" short-display-name="LE ACL write credits" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Duty Cycle (%) - Coded Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Duty Cycle (%) - Coded Phy"
+            sampling="0"
+            short-display-name="LE Scan Duty Cycle (%) - Coded Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Duty Cycle (%) - Uncoded 1M Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Duty Cycle (%) - Uncoded 1M Phy"
+            sampling="0"
+            short-display-name="LE Scan Duty Cycle (%) - Uncoded 1M Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Interval - Coded Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Interval - Coded Phy"
+            sampling="0"
+            short-display-name="LE Scan Interval - Coded Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Interval - Uncoded 1M Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Interval - Uncoded 1M Phy"
+            sampling="0"
+            short-display-name="LE Scan Interval - Uncoded 1M Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Window - Coded Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Window - Coded Phy"
+            sampling="0" short-display-name="LE Scan Window - Coded Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/LE Scan Window - Uncoded 1M Phy"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\LE Scan Window - Uncoded 1M Phy"
+            sampling="0"
+            short-display-name="LE Scan Window - Uncoded 1M Phy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Page Scan Duty Cycle (%)"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Page Scan Duty Cycle (%)"
+            sampling="0" short-display-name="Page Scan Duty Cycle (%)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Page Scan Interval"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Page Scan Interval"
+            sampling="0" short-display-name="Page Scan Interval" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Page Scan Window"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Page Scan Window"
+            sampling="0" short-display-name="Page Scan Window" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/SCO bytes read/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\SCO bytes read/sec"
+            sampling="0" short-display-name="SCO bytes read/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/SCO bytes written/sec"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\SCO bytes written/sec"
+            sampling="0" short-display-name="SCO bytes written/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/SCO Connections"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\SCO Connections"
+            sampling="0" short-display-name="SCO Connections" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Bluetooth Radio/Sideband SCO Connections"
+            path="\\localhost\Bluetooth Radio(Intel(R) Wireless Bluetooth(R))\Sideband SCO Connections"
+            sampling="0" short-display-name="Sideband SCO Connections" unit=""/>
+    </monitor-category>
+    <monitor-category name="BranchCache" short-display-name="BranchCache">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/BITS: Bytes from cache"
+            path="\\localhost\BranchCache\BITS: Bytes from cache"
+            sampling="0" short-display-name="BITS: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/BITS: Bytes from server"
+            path="\\localhost\BranchCache\BITS: Bytes from server"
+            sampling="0" short-display-name="BITS: Bytes from server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Discovery: Attempted discoveries"
+            path="\\localhost\BranchCache\Discovery: Attempted discoveries"
+            sampling="0"
+            short-display-name="Discovery: Attempted discoveries" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Discovery: Successful discoveries"
+            path="\\localhost\BranchCache\Discovery: Successful discoveries"
+            sampling="0"
+            short-display-name="Discovery: Successful discoveries" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Discovery: Weighted average discovery time"
+            path="\\localhost\BranchCache\Discovery: Weighted average discovery time"
+            sampling="0"
+            short-display-name="Discovery: Weighted average discovery time" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Hosted Cache: Client file segment offers made"
+            path="\\localhost\BranchCache\Hosted Cache: Client file segment offers made"
+            sampling="0"
+            short-display-name="Hosted Cache: Client file segment offers made" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Hosted Cache: Segment offers queue size"
+            path="\\localhost\BranchCache\Hosted Cache: Segment offers queue size"
+            sampling="0"
+            short-display-name="Hosted Cache: Segment offers queue size" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Local Cache: Average access time"
+            path="\\localhost\BranchCache\Local Cache: Average access time"
+            sampling="0"
+            short-display-name="Local Cache: Average access time" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Local Cache: Cache complete file segments"
+            path="\\localhost\BranchCache\Local Cache: Cache complete file segments"
+            sampling="0"
+            short-display-name="Local Cache: Cache complete file segments" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Local Cache: Cache partial file segments"
+            path="\\localhost\BranchCache\Local Cache: Cache partial file segments"
+            sampling="0"
+            short-display-name="Local Cache: Cache partial file segments" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/OTHER: Bytes from cache"
+            path="\\localhost\BranchCache\OTHER: Bytes from cache"
+            sampling="0" short-display-name="OTHER: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/OTHER: Bytes from server"
+            path="\\localhost\BranchCache\OTHER: Bytes from server"
+            sampling="0" short-display-name="OTHER: Bytes from server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Publication Cache: Published contents"
+            path="\\localhost\BranchCache\Publication Cache: Published contents"
+            sampling="0"
+            short-display-name="Publication Cache: Published contents" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Retrieval: Average branch rate"
+            path="\\localhost\BranchCache\Retrieval: Average branch rate"
+            sampling="0"
+            short-display-name="Retrieval: Average branch rate" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Retrieval: Bytes from cache"
+            path="\\localhost\BranchCache\Retrieval: Bytes from cache"
+            sampling="0"
+            short-display-name="Retrieval: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Retrieval: Bytes from server"
+            path="\\localhost\BranchCache\Retrieval: Bytes from server"
+            sampling="0"
+            short-display-name="Retrieval: Bytes from server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/Retrieval: Bytes served"
+            path="\\localhost\BranchCache\Retrieval: Bytes served"
+            sampling="0" short-display-name="Retrieval: Bytes served" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/SMB: Bytes from cache"
+            path="\\localhost\BranchCache\SMB: Bytes from cache"
+            sampling="0" short-display-name="SMB: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/SMB: Bytes from server"
+            path="\\localhost\BranchCache\SMB: Bytes from server"
+            sampling="0" short-display-name="SMB: Bytes from server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/WINHTTP: Bytes from cache"
+            path="\\localhost\BranchCache\WINHTTP: Bytes from cache"
+            sampling="0" short-display-name="WINHTTP: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/WINHTTP: Bytes from server"
+            path="\\localhost\BranchCache\WINHTTP: Bytes from server"
+            sampling="0" short-display-name="WINHTTP: Bytes from server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/WININET: Bytes from cache"
+            path="\\localhost\BranchCache\WININET: Bytes from cache"
+            sampling="0" short-display-name="WININET: Bytes from cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="BranchCache/WININET: Bytes from server"
+            path="\\localhost\BranchCache\WININET: Bytes from server"
+            sampling="0" short-display-name="WININET: Bytes from server" unit=""/>
+    </monitor-category>
+    <monitor-category name="Client Side Caching" short-display-name="Client Side Caching">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Application Bytes Read From Cache"
+            path="\\localhost\Client Side Caching\Application Bytes Read From Cache"
+            sampling="0"
+            short-display-name="Application Bytes Read From Cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Application Bytes Read From Server"
+            path="\\localhost\Client Side Caching\Application Bytes Read From Server"
+            sampling="0"
+            short-display-name="Application Bytes Read From Server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Application Bytes Read From Server (Not Cached)"
+            path="\\localhost\Client Side Caching\Application Bytes Read From Server (Not Cached)"
+            sampling="0"
+            short-display-name="Application Bytes Read From Server (Not Cached)" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Prefetch Bytes Read From Cache"
+            path="\\localhost\Client Side Caching\Prefetch Bytes Read From Cache"
+            sampling="0"
+            short-display-name="Prefetch Bytes Read From Cache" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Prefetch Bytes Read From Server"
+            path="\\localhost\Client Side Caching\Prefetch Bytes Read From Server"
+            sampling="0"
+            short-display-name="Prefetch Bytes Read From Server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/Prefetch Operations Queued"
+            path="\\localhost\Client Side Caching\Prefetch Operations Queued"
+            sampling="0" short-display-name="Prefetch Operations Queued" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Bytes Published"
+            path="\\localhost\Client Side Caching\SMB BranchCache Bytes Published"
+            sampling="0"
+            short-display-name="SMB BranchCache Bytes Published" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Bytes Received"
+            path="\\localhost\Client Side Caching\SMB BranchCache Bytes Received"
+            sampling="0"
+            short-display-name="SMB BranchCache Bytes Received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Bytes Requested"
+            path="\\localhost\Client Side Caching\SMB BranchCache Bytes Requested"
+            sampling="0"
+            short-display-name="SMB BranchCache Bytes Requested" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Bytes Requested From Server"
+            path="\\localhost\Client Side Caching\SMB BranchCache Bytes Requested From Server"
+            sampling="0"
+            short-display-name="SMB BranchCache Bytes Requested From Server" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Hash Bytes Received"
+            path="\\localhost\Client Side Caching\SMB BranchCache Hash Bytes Received"
+            sampling="0"
+            short-display-name="SMB BranchCache Hash Bytes Received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Hashes Received"
+            path="\\localhost\Client Side Caching\SMB BranchCache Hashes Received"
+            sampling="0"
+            short-display-name="SMB BranchCache Hashes Received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Client Side Caching/SMB BranchCache Hashes Requested"
+            path="\\localhost\Client Side Caching\SMB BranchCache Hashes Requested"
+            sampling="0"
+            short-display-name="SMB BranchCache Hashes Requested" unit=""/>
+    </monitor-category>
+    <monitor-category name="DNS64 Global" short-display-name="DNS64 Global">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/AAAA - Synthesized records"
+            path="\\localhost\DNS64 Global(Default)\AAAA - Synthesized records"
+            sampling="0" short-display-name="AAAA - Synthesized records" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/AAAA queries - Failed"
+            path="\\localhost\DNS64 Global(Default)\AAAA queries - Failed"
+            sampling="0" short-display-name="AAAA queries - Failed" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/AAAA queries - Successful"
+            path="\\localhost\DNS64 Global(Default)\AAAA queries - Successful"
+            sampling="0" short-display-name="AAAA queries - Successful" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/IP6.ARPA queries - Matched"
+            path="\\localhost\DNS64 Global(Default)\IP6.ARPA queries - Matched"
+            sampling="0" short-display-name="IP6.ARPA queries - Matched" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/Other queries - Failed"
+            path="\\localhost\DNS64 Global(Default)\Other queries - Failed"
+            sampling="0" short-display-name="Other queries - Failed" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="DNS64 Global/Other queries - Successful"
+            path="\\localhost\DNS64 Global(Default)\Other queries - Successful"
+            sampling="0" short-display-name="Other queries - Successful" unit=""/>
+    </monitor-category>
+    <monitor-category name="Distributed Routing Table" short-display-name="Distributed Routing Table">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Ack Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Ack Messages Received/second"
+            sampling="0"
+            short-display-name="Ack Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Ack Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Ack Messages Sent/second"
+            sampling="0" short-display-name="Ack Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Advertise Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Advertise Messages Received/second"
+            sampling="0"
+            short-display-name="Advertise Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Advertise Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Advertise Messages Sent/second"
+            sampling="0"
+            short-display-name="Advertise Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Authority Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Authority Messages Received/second"
+            sampling="0"
+            short-display-name="Authority Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Authority Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Authority Sent/second"
+            sampling="0" short-display-name="Authority Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Average Bytes/second Received"
+            path="\\localhost\Distributed Routing Table(*)\Average Bytes/second Received"
+            sampling="0"
+            short-display-name="Average Bytes/second Received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Average Bytes/second Sent"
+            path="\\localhost\Distributed Routing Table(*)\Average Bytes/second Sent"
+            sampling="0" short-display-name="Average Bytes/second Sent" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Cache Entries"
+            path="\\localhost\Distributed Routing Table(*)\Cache Entries"
+            sampling="0" short-display-name="Cache Entries" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Estimated cloud size"
+            path="\\localhost\Distributed Routing Table(*)\Estimated cloud size"
+            sampling="0" short-display-name="Estimated cloud size" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Flood Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Flood Messages Received/second"
+            sampling="0"
+            short-display-name="Flood Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Flood Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Flood Messages Sent/second"
+            sampling="0" short-display-name="Flood Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Inquire Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Inquire Messages Received/second"
+            sampling="0"
+            short-display-name="Inquire Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Inquire Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Inquire Messages Sent/second"
+            sampling="0"
+            short-display-name="Inquire Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Lookup Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Lookup Messages Received/second"
+            sampling="0"
+            short-display-name="Lookup Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Lookup Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Lookup Messages Sent/second"
+            sampling="0"
+            short-display-name="Lookup Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Receive Failures"
+            path="\\localhost\Distributed Routing Table(*)\Receive Failures"
+            sampling="0" short-display-name="Receive Failures" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Registrations"
+            path="\\localhost\Distributed Routing Table(*)\Registrations"
+            sampling="0" short-display-name="Registrations" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Request Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Request Messages Received/second"
+            sampling="0"
+            short-display-name="Request Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Request Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Request Messages Sent/second"
+            sampling="0"
+            short-display-name="Request Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Searches"
+            path="\\localhost\Distributed Routing Table(*)\Searches"
+            sampling="0" short-display-name="Searches" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Send Failures"
+            path="\\localhost\Distributed Routing Table(*)\Send Failures"
+            sampling="0" short-display-name="Send Failures" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Solicit Messages Received/second"
+            path="\\localhost\Distributed Routing Table(*)\Solicit Messages Received/second"
+            sampling="0"
+            short-display-name="Solicit Messages Received/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Solicit Messages Sent/second"
+            path="\\localhost\Distributed Routing Table(*)\Solicit Messages Sent/second"
+            sampling="0"
+            short-display-name="Solicit Messages Sent/second" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Stale Cache Entries"
+            path="\\localhost\Distributed Routing Table(*)\Stale Cache Entries"
+            sampling="0" short-display-name="Stale Cache Entries" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Distributed Routing Table/Unrecognized Messages Received"
+            path="\\localhost\Distributed Routing Table(*)\Unrecognized Messages Received"
+            sampling="0"
+            short-display-name="Unrecognized Messages Received" unit=""/>
+    </monitor-category>
+    <monitor-category name="Energy Meter" short-display-name="Energy Meter">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Energy Meter/Energy"
+            path="\\localhost\Energy Meter(*)\Energy" sampling="0"
+            short-display-name="Energy" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Energy Meter/Power"
+            path="\\localhost\Energy Meter(*)\Power" sampling="0"
+            short-display-name="Power" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Energy Meter/Time"
+            path="\\localhost\Energy Meter(*)\Time" sampling="0"
+            short-display-name="Time" unit=""/>
+    </monitor-category>
+    <monitor-category name="Event Log" short-display-name="Event Log">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/Active subscriptions"
+            path="\\localhost\Event Log\Active subscriptions"
+            sampling="0" short-display-name="Active subscriptions" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/ELF RPC calls/sec"
+            path="\\localhost\Event Log\ELF RPC calls/sec" sampling="0"
+            short-display-name="ELF RPC calls/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/Enabled Channels"
+            path="\\localhost\Event Log\Enabled Channels" sampling="0"
+            short-display-name="Enabled Channels" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/Event filter operations/sec"
+            path="\\localhost\Event Log\Event filter operations/sec"
+            sampling="0"
+            short-display-name="Event filter operations/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/Events/sec"
+            path="\\localhost\Event Log\Events/sec" sampling="0"
+            short-display-name="Events/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Event Log/WEVT RPC calls/sec"
+            path="\\localhost\Event Log\WEVT RPC calls/sec" sampling="0"
+            short-display-name="WEVT RPC calls/sec" unit=""/>
+    </monitor-category>
+    <monitor-category name="PacketDirect EC Utilization" short-display-name="PacketDirect EC Utilization">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/% Busy Wait Iterations"
+            path="\\localhost\PacketDirect EC Utilization(*)\% Busy Wait Iterations"
+            sampling="0" short-display-name="% Busy Wait Iterations" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/% Busy Waiting Time"
+            path="\\localhost\PacketDirect EC Utilization(*)\% Busy Waiting Time"
+            sampling="0" short-display-name="% Busy Waiting Time" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/% Idle Time"
+            path="\\localhost\PacketDirect EC Utilization(*)\% Idle Time"
+            sampling="0" short-display-name="% Idle Time" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/% Processing Time"
+            path="\\localhost\PacketDirect EC Utilization(*)\% Processing Time"
+            sampling="0" short-display-name="% Processing Time" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/Busy Wait Iterations/sec"
+            path="\\localhost\PacketDirect EC Utilization(*)\Busy Wait Iterations/sec"
+            sampling="0" short-display-name="Busy Wait Iterations/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/Iterations/sec"
+            path="\\localhost\PacketDirect EC Utilization(*)\Iterations/sec"
+            sampling="0" short-display-name="Iterations/sec" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/Processor Number"
+            path="\\localhost\PacketDirect EC Utilization(*)\Processor Number"
+            sampling="0" short-display-name="Processor Number" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/RX Queue Count"
+            path="\\localhost\PacketDirect EC Utilization(*)\RX Queue Count"
+            sampling="0" short-display-name="RX Queue Count" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/Total Busy Wait Iterations"
+            path="\\localhost\PacketDirect EC Utilization(*)\Total Busy Wait Iterations"
+            sampling="0" short-display-name="Total Busy Wait Iterations" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/Total Iterations"
+            path="\\localhost\PacketDirect EC Utilization(*)\Total Iterations"
+            sampling="0" short-display-name="Total Iterations" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="PacketDirect EC Utilization/TX Queue Count"
+            path="\\localhost\PacketDirect EC Utilization(*)\TX Queue Count"
+            sampling="0" short-display-name="TX Queue Count" unit=""/>
+    </monitor-category>
+    <monitor-category name="TCPIP Performance Diagnostics" short-display-name="TCPIP Performance Diagnostics">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/Denied connect or send requests in low-power mode"
+            path="\\localhost\TCPIP Performance Diagnostics\Denied connect or send requests in low-power mode"
+            sampling="0"
+            short-display-name="Denied connect or send requests in low-power mode"
+            threshold="34382119-393a-4f09-9474-f0e776d068b9" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs indicated with low-resource flag"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs indicated with low-resource flag"
+            sampling="0"
+            short-display-name="IPv4 NBLs indicated with low-resource flag" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs indicated without prevalidation"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs indicated without prevalidation"
+            sampling="0"
+            short-display-name="IPv4 NBLs indicated without prevalidation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs treated as non-prevalidated"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs treated as non-prevalidated"
+            sampling="0"
+            short-display-name="IPv4 NBLs treated as non-prevalidated" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs/sec indicated with low-resource flag"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs/sec indicated with low-resource flag"
+            sampling="0"
+            short-display-name="IPv4 NBLs/sec indicated with low-resource flag" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs/sec indicated without prevalidation"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs/sec indicated without prevalidation"
+            sampling="0"
+            short-display-name="IPv4 NBLs/sec indicated without prevalidation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 NBLs/sec treated as non-prevalidated"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 NBLs/sec treated as non-prevalidated"
+            sampling="0"
+            short-display-name="IPv4 NBLs/sec treated as non-prevalidated" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 outbound NBLs not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 outbound NBLs not processed via fast path"
+            sampling="0"
+            short-display-name="IPv4 outbound NBLs not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv4 outbound NBLs/sec not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv4 outbound NBLs/sec not processed via fast path"
+            sampling="0"
+            short-display-name="IPv4 outbound NBLs/sec not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs indicated with low-resource flag"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs indicated with low-resource flag"
+            sampling="0"
+            short-display-name="IPv6 NBLs indicated with low-resource flag" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs indicated without prevalidation"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs indicated without prevalidation"
+            sampling="0"
+            short-display-name="IPv6 NBLs indicated without prevalidation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs treated as non-prevalidated"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs treated as non-prevalidated"
+            sampling="0"
+            short-display-name="IPv6 NBLs treated as non-prevalidated" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs/sec indicated with low-resource flag"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs/sec indicated with low-resource flag"
+            sampling="0"
+            short-display-name="IPv6 NBLs/sec indicated with low-resource flag" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs/sec indicated without prevalidation"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs/sec indicated without prevalidation"
+            sampling="0"
+            short-display-name="IPv6 NBLs/sec indicated without prevalidation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 NBLs/sec treated as non-prevalidated"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 NBLs/sec treated as non-prevalidated"
+            sampling="0"
+            short-display-name="IPv6 NBLs/sec treated as non-prevalidated" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 outbound NBLs not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 outbound NBLs not processed via fast path"
+            sampling="0"
+            short-display-name="IPv6 outbound NBLs not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/IPv6 outbound NBLs/sec not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\IPv6 outbound NBLs/sec not processed via fast path"
+            sampling="0"
+            short-display-name="IPv6 outbound NBLs/sec not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/RSC segment forwarding failures during software segmentation"
+            path="\\localhost\TCPIP Performance Diagnostics\RSC segment forwarding failures during software segmentation"
+            sampling="0"
+            short-display-name="RSC segment forwarding failures during software segmentation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/RSC segments forwarded via LSO"
+            path="\\localhost\TCPIP Performance Diagnostics\RSC segments forwarded via LSO"
+            sampling="0"
+            short-display-name="RSC segments forwarded via LSO" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/RSC segments forwarded via software segmentation"
+            path="\\localhost\TCPIP Performance Diagnostics\RSC segments forwarded via software segmentation"
+            sampling="0"
+            short-display-name="RSC segments forwarded via software segmentation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/RSC segments forwarded via software segmentation and checksum"
+            path="\\localhost\TCPIP Performance Diagnostics\RSC segments forwarded via software segmentation and checksum"
+            sampling="0"
+            short-display-name="RSC segments forwarded via software segmentation and checksum" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP checksum errors"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP checksum errors"
+            sampling="0" short-display-name="TCP checksum errors" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP connect requests fallen off loopback fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP connect requests fallen off loopback fast path"
+            sampling="0"
+            short-display-name="TCP connect requests fallen off loopback fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP connect requests/sec fallen off loopback fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP connect requests/sec fallen off loopback fast path"
+            sampling="0"
+            short-display-name="TCP connect requests/sec fallen off loopback fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP inbound segments not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP inbound segments not processed via fast path"
+            sampling="0"
+            short-display-name="TCP inbound segments not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP inbound segments/sec not processed via fast path"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP inbound segments/sec not processed via fast path"
+            sampling="0"
+            short-display-name="TCP inbound segments/sec not processed via fast path" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP RSC bytes received"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP RSC bytes received"
+            sampling="0" short-display-name="TCP RSC bytes received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP RSC events"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP RSC events"
+            sampling="0" short-display-name="TCP RSC events" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/TCP timeouts"
+            path="\\localhost\TCPIP Performance Diagnostics\TCP timeouts"
+            sampling="0" short-display-name="TCP timeouts" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/UDP datagrams created via software segmentation"
+            path="\\localhost\TCPIP Performance Diagnostics\UDP datagrams created via software segmentation"
+            sampling="0"
+            short-display-name="UDP datagrams created via software segmentation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/UDP URO bytes received"
+            path="\\localhost\TCPIP Performance Diagnostics\UDP URO bytes received"
+            sampling="0" short-display-name="UDP URO bytes received" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/UDP URO events"
+            path="\\localhost\TCPIP Performance Diagnostics\UDP URO events"
+            sampling="0" short-display-name="UDP URO events" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/URO segment forwarding failures during software segmentation"
+            path="\\localhost\TCPIP Performance Diagnostics\URO segment forwarding failures during software segmentation"
+            sampling="0"
+            short-display-name="URO segment forwarding failures during software segmentation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/URO segments forwarded via software segmentation"
+            path="\\localhost\TCPIP Performance Diagnostics\URO segments forwarded via software segmentation"
+            sampling="0"
+            short-display-name="URO segments forwarded via software segmentation" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics/URO segments forwarded via software segmentation and checksum"
+            path="\\localhost\TCPIP Performance Diagnostics\URO segments forwarded via software segmentation and checksum"
+            sampling="0"
+            short-display-name="URO segments forwarded via software segmentation and checksum" unit=""/>
+    </monitor-category>
+    <monitor-category name="TCPIP Performance Diagnostics (Per-CPU)" short-display-name="TCPIP Performance Diagnostics (Per-CPU)">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="TCPIP Performance Diagnostics (Per-CPU)/TCP current connections (CPU0)"
+            path="\\localhost\TCPIP Performance Diagnostics (Per-CPU)(CPU0)\TCP current connections"
+            sampling="0"
+            short-display-name="TCP current connections (CPU0)" unit=""/>
+    </monitor-category>
+    <monitor-category name="Teredo Client" short-display-name="Teredo Client">
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Bubble"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Bubble"
+            sampling="0" short-display-name="In - Teredo Bubble" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Data"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Data"
+            sampling="0" short-display-name="In - Teredo Data" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Data Kernel Mode"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Data Kernel Mode"
+            sampling="0"
+            short-display-name="In - Teredo Data Kernel Mode" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Data User Mode"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Data User Mode"
+            sampling="0" short-display-name="In - Teredo Data User Mode" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Invalid"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Invalid"
+            sampling="0" short-display-name="In - Teredo Invalid" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/In - Teredo Router Advertisement"
+            path="\\localhost\Teredo Client(Default)\In - Teredo Router Advertisement"
+            sampling="0"
+            short-display-name="In - Teredo Router Advertisement" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/Out - Teredo Bubble"
+            path="\\localhost\Teredo Client(Default)\Out - Teredo Bubble"
+            sampling="0" short-display-name="Out - Teredo Bubble" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/Out - Teredo Data"
+            path="\\localhost\Teredo Client(Default)\Out - Teredo Data"
+            sampling="0" short-display-name="Out - Teredo Data" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/Out - Teredo Data Kernel Mode"
+            path="\\localhost\Teredo Client(Default)\Out - Teredo Data Kernel Mode"
+            sampling="0"
+            short-display-name="Out - Teredo Data Kernel Mode" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/Out - Teredo Data User Mode"
+            path="\\localhost\Teredo Client(Default)\Out - Teredo Data User Mode"
+            sampling="0"
+            short-display-name="Out - Teredo Data User Mode" unit=""/>
+        <monitor-win32 callTime="ON_BENCH" computing="0" format="NUMBER"
+            name="Teredo Client/Out - Teredo Router Solicitation"
+            path="\\localhost\Teredo Client(Default)\Out - Teredo Router Solicitation"
+            sampling="0"
+            short-display-name="Out - Teredo Router Solicitation" unit=""/>
+    </monitor-category>
+    <threshold enabled="true" uid="34382119-393a-4f09-9474-f0e776d068b9">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="10.0"/>
+    </threshold>
+</connection-win>

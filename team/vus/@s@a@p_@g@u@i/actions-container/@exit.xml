@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Exit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="fa5515f0-ba98-4b21-a387-c2f6a0353d7f" weightsEnabled="false">
+    <weighted-embedded-action uid="556300cf-e355-4d94-9574-88ce24317f91"/>
+    <weighted-embedded-action uid="b0cd6801-95dc-4e60-9577-e1282a70af14"/>
+</basic-logical-action-container>

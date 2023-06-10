@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CreateStandardOrder" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6992f0d0-00b6-42d7-b7ff-8640b1c7f2d0" weightsEnabled="false">
+    <weighted-embedded-action uid="c6268770-6092-4d77-9735-4094046cd6e7"/>
+    <weighted-embedded-action uid="c2976e40-46b0-4600-a7da-b63d91eb4cf1"/>
+    <weighted-embedded-action uid="17ace5a5-e22f-4486-a102-f696e75db5f3"/>
+</basic-logical-action-container>

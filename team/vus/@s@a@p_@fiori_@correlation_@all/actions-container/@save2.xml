@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Save2" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="f075cb69-7784-4932-9b9a-880ebf613ce3" weightsEnabled="false">
+    <weighted-embedded-action uid="73a70df4-ffe8-450d-8054-3d8193b06c8a"/>
+</basic-logical-action-container>

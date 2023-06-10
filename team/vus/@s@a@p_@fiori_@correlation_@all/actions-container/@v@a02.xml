@@ -1,0 +1,36 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="VA02" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="ab189869-2a05-4ab9-a1fd-458930c8b295" weightsEnabled="false">
+    <weighted-embedded-action uid="f5ad8218-3eb5-4662-9b3d-bfca9097bd12"/>
+    <weighted-embedded-action uid="21666e4a-6cee-41ee-b1d9-2c45584fb5d7"/>
+    <weighted-embedded-action uid="e948d606-31af-4c00-ace2-64d1382030d2"/>
+    <weighted-embedded-action uid="9b2e7618-4375-49b0-ad80-19d7f89d565b"/>
+    <weighted-embedded-action uid="641612b1-0748-429b-9e4c-4eba70a001db"/>
+    <weighted-embedded-action uid="f1ea0379-2018-48f8-94df-b2348941f0a1"/>
+    <weighted-embedded-action uid="db5fe81f-d1c8-47c8-a2ef-11238267135c"/>
+    <weighted-embedded-action uid="050cdfc8-32b1-43b3-89fb-23723980428f"/>
+    <weighted-embedded-action uid="cf9e2a17-909e-40b9-a4bc-4d1e40f7b7e9"/>
+    <weighted-embedded-action uid="8ee41c92-1c75-46f3-8448-d50def385ba3"/>
+    <weighted-embedded-action uid="5c6668f1-08ec-4010-8446-522f387249bb"/>
+    <weighted-embedded-action uid="dc8d01ab-f1d4-4afa-bf6e-10ce66a6b563"/>
+    <weighted-embedded-action uid="ab1da8b9-7c5f-483d-b574-42e2365051a9"/>
+    <weighted-embedded-action uid="0df8c22e-99ba-4b9e-a074-49facaec3b99"/>
+    <weighted-embedded-action uid="3bd0e595-5dba-4d43-a792-783c0f567475"/>
+    <weighted-embedded-action uid="7cb396c2-7f09-40f3-963a-9fc7cfe43945"/>
+    <weighted-embedded-action uid="e129de30-1369-4028-9d8c-fe4f0eefe928"/>
+    <weighted-embedded-action uid="a263ef65-d9c7-4e15-8d65-782bb0515f92"/>
+    <weighted-embedded-action uid="4dda5e77-2d27-4511-bc50-87905e8d5802"/>
+    <weighted-embedded-action uid="5605276d-32c1-4b3d-b986-c66e444ba17e"/>
+    <weighted-embedded-action uid="ccacd020-e8e3-45ed-8188-6ed26a716fbf"/>
+    <weighted-embedded-action uid="fc618b28-830c-4270-a2ba-419797d1a274"/>
+    <weighted-embedded-action uid="ceef9ee7-7816-4e38-8935-b9d236158ee2"/>
+    <weighted-embedded-action uid="9fd7a698-05f6-44d4-a130-7c38960e0408"/>
+    <weighted-embedded-action uid="06341ade-5e25-46c0-a12e-8b0ce0293483"/>
+    <weighted-embedded-action uid="1ba5dab0-e085-4208-a443-61364b4051ef"/>
+    <weighted-embedded-action uid="817041f7-6bb5-43fc-abb5-abdfa7a24d91"/>
+    <weighted-embedded-action uid="74be21f6-5023-4479-afab-c1ea397db645"/>
+    <weighted-embedded-action uid="97e5772b-ec42-479d-b9e7-29288fca5866"/>
+    <weighted-embedded-action uid="eb37788b-a455-4eb9-9757-33deebfcf9c3"/>
+    <weighted-embedded-action uid="62101fb5-b32d-4173-ae78-4791333fa7e5"/>
+</basic-logical-action-container>

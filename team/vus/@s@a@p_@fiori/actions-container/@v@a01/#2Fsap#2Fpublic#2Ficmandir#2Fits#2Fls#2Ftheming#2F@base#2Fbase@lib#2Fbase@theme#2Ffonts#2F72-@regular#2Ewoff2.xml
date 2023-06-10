@@ -1,0 +1,82 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/public/icmandir/its/ls/theming/Base/baseLib/baseTheme/fonts/72-Regular.woff2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/3f7e7c31-51ca-4904-908c-7fa2e46905cb.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3f7e7c31-51ca-4904-908c-7fa2e46905cb">
+    <embedded-action>0fdf584d-e571-426d-8c99-d501c4d3b5a6</embedded-action>
+    <embedded-action>cb35b915-b7d9-4f81-9cec-fe1aa9c706a6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4c8436f4-cf4e-4acb-97e3-ba1d5931ad87.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 06 Jan 2023 19:17:30 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/public/icmandir/its/ls/theming/Base/baseLib/baseTheme/fonts/72-Regular.woff2"
+    path="/sap/public/icmandir/its/ls/theming/Base/baseLib/baseTheme/fonts/72-Regular.woff2"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/3f7e7c31-51ca-4904-908c-7fa2e46905cb.zip"
+    recordedResponseCode="200" responseSize="24396"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="0fdf584d-e571-426d-8c99-d501c4d3b5a6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f908c0a0-6a45-4e8f-a33a-fa86b335b9cf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f908c0a0-6a45-4e8f-a33a-fa86b335b9cf.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/public/icmandir/its/ls/theming/UR/ls/sap_belize/standards.css?version=UR.ls:10.30.7.348618.0"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="identity"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="accept" value="application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/plain&#xd;
+last-modified: Fri, 06 Jan 2023 19:17:30 GMT&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=31536000&#xd;
+content-length: 24396&#xd;
+date: Thu, 26 Jan 2023 13:49:55 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 06 Jan 2023 19:17:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/public/icmandir/its/ls/theming/Base/baseLib/sap_belize/svg/libs/SAPGUI-icons.svg"
+    path="/sap/public/icmandir/its/ls/theming/Base/baseLib/sap_belize/svg/libs/SAPGUI-icons.svg"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/3f7e7c31-51ca-4904-908c-7fa2e46905cb.zip"
+    recordedResponseCode="200" responseSize="1603499"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="cb35b915-b7d9-4f81-9cec-fe1aa9c706a6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_33d0aa3f-3651-4d0a-8225-258a94c3fbf9.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_33d0aa3f-3651-4d0a-8225-258a94c3fbf9.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net?%7etransaction=VA01&amp;%7enosplash=1&amp;sap-client=100&amp;sap-language=EN&amp;sap-ui-tech-hint=GUI&amp;sap-ie=edge&amp;sap-theme=sap_belize&amp;sap-target-navmode=explace&amp;sap-touch=0&amp;sap-shell=FLP1.71.20"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="content-type" value="image/svg+xml"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/svg+xml&#xd;
+last-modified: Fri, 06 Jan 2023 19:17:48 GMT&#xd;
+cache-control: max-age=31536000&#xd;
+content-length: 431941&#xd;
+content-encoding: br&#xd;
+date: Thu, 26 Jan 2023 13:49:55 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

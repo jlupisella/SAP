@@ -1,0 +1,56 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/opu/odata/UI2/INTEROP/PersContainers_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/6d26765d-122f-4b83-ae62-009922c6ae98.zip"
+    slaProfileEnabled="false" thinkTime="5"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6d26765d-122f-4b83-ae62-009922c6ae98">
+    <embedded-action>4c34262a-48e8-494f-8ef0-670364504e8b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_190ee8f2-bf4e-4afc-b8cb-e4f226c802c0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/opu/odata/UI2/INTEROP/PersContainers"
+    path="/sap/opu/odata/UI2/INTEROP/PersContainers" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/6d26765d-122f-4b83-ae62-009922c6ae98.zip"
+    recordedResponseCode="201" responseSize="2955"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="4c34262a-48e8-494f-8ef0-670364504e8b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7e1ba176-76a7-4602-b8ec-c266a3a54c42</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7e1ba176-76a7-4602-b8ec-c266a3a54c42.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="EN"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="sap-client" value="100"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="3.0"/>
+    <header name="te" value="trailers"/>
+    <header name="sap-language" value="EN"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E656420202020202020202020202020202020202020204638424535323437433531363437363641463345303231313843373645443130202020000756A8DA133AB94B628F0E6893F10841490000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="content-type" value="application/json"/>
+    <header name="x-csrf-token" value="${ExtractedVariable_x-csrf-token}"/>
+    <header name="dataserviceversion" value="1.0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 730&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 42018.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"__metadata":{"id":"https://sapdemo21.tricentis.com:44301/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","uri":"https://sapdemo21.tricentis.com:44301/sap/opu/odata/UI2/INTEROP/PersContainers(id='sap.ushell.services.UserRecents',category='U')","type":"INTEROP.PersContainer"},"id":"sap.ushell.services.UserRecents","category":"U","validity":0,"clientExpirationTime":"\/Date(253373461200000)\/","component":"","appName":"","PersContainerItems":[{"value":"{\"recentDay\":\"2023/1/26\",\"recentUsageArray\":[{\"oItem\":{\"title\":\"Display Sales Orders - VA03\",\"appType\":\"Application\",\"url\":\"#SalesDocument-display?sap-ui-tech-hint=GUI\",\"appId\":\"#SalesDocument-display\",\"timestamp\":1674741209389,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1674741209389,\"aUsageArray\":[4,0,2,2,0,1,1],\"iCount\":10},{\"oItem\":{\"title\":\"Change Sales Orders - VA02\",\"appType\":\"Application\",\"url\":\"#SalesDocument-change?sap-ui-tech-hint=GUI\",\"appId\":\"#SalesDocument-change\",\"timestamp\":1674741170474,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1674741170474,\"aUsageArray\":[6,0,2,0,2,1,1],\"iCount\":12},{\"oItem\":{\"title\":\"Create Sales Orders - VA01\",\"appType\":\"Application\",\"url\":\"#SalesDocument-create?sap-ui-tech-hint=GUI\",\"appId\":\"#SalesDocument-create\",\"timestamp\":1674740998088,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1674740998088,\"aUsageArray\":[4,2,4,2,0,2,2],\"iCount\":16},{\"oItem\":{\"title\":\"Manage Bank Accounts\",\"appType\":\"Application\",\"url\":\"#BankAccount-manageMasterData?sap-fiori-id=F1366A\",\"appId\":\"#BankAccount-manageMasterData\",\"timestamp\":1643647963640,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1643647963640,\"aUsageArray\":[1,0,0,0,0,0,0],\"iCount\":1},{\"oItem\":{\"title\":\"Cash Flow Analyzer\",\"appType\":\"Application\",\"url\":\"#CashFlow-analyzeFlow\",\"appId\":\"#CashFlow-analyzeFlow\",\"timestamp\":1643143937899,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1643143937899,\"aUsageArray\":[1,0,0,0,0,0,0,0],\"iCount\":1},{\"oItem\":{\"title\":\"Bank Relationship Overview\",\"appType\":\"Application\",\"url\":\"#BankAccount-displayBRMOverview\",\"appId\":\"#BankAccount-displayBRMOverview\",\"timestamp\":1643143895083,\"icon\":\"sap-icon://product\"},\"iTimestamp\":1643143895083,\"aUsageArray\":[1,0,0,0,0,0,0,0],\"iCount\":1}]}","id":"RecentActivity","category":"I","containerId":"sap.ushell.services.UserRecents","containerCategory":"U"}]}]]></textPostContent>
+</http-action>

@@ -1,0 +1,89 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/ae623aa6-f793-48d6-b43e-94bfd52532f0.zip"
+    slaProfileEnabled="false" thinkTime="5"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ae623aa6-f793-48d6-b43e-94bfd52532f0">
+    <embedded-action>eb4cdc62-b029-4fe4-baab-f2ff3917a31a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_40764148-16d5-4765-8482-f2d1ed6e22ea.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net"
+    path="/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net"
+    postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/ae623aa6-f793-48d6-b43e-94bfd52532f0.zip"
+    recordedResponseCode="200" responseSize="23966"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="eb4cdc62-b029-4fe4-baab-f2ff3917a31a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e5141ac8-c5b7-4e93-87c6-708cc968f189.0.0.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e5141ac8-c5b7-4e93-87c6-708cc968f189.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="~path" regExp="action=&quot;/sap\((.*?)\)"
+        regExpAdv="action=&quot;/sap\((.*?)\)" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="c57857bb-1a91-4093-8cf9-4d165fcb9e4d" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="moin" regExp="moin = &quot;(.*?)&quot;"
+        regExpAdv="moin = &quot;(.*?)&quot;" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="2fa925ea-1c99-45f3-b4d0-f210aed12bd1" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="~transaction"
+        recordRawValue="VA01" separator="=" value="VA01" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="~nosplash"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-ui-tech-hint" recordRawValue="GUI" separator="="
+        value="GUI" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-ie"
+        recordRawValue="edge" separator="=" value="edge" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-theme"
+        recordRawValue="sap_belize" separator="=" value="sap_belize" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="sap-target-navmode" recordRawValue="explace" separator="="
+        value="explace" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-touch"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-shell"
+        recordRawValue="FLP1.71.20" separator="=" value="FLP1.71.20" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="iframe"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 6290&#xd;
+pragma: no-cache&#xd;
+cache-control: no-store&#xd;
+expires: Tue, 01 Jan 1980 1:00:00 GMT&#xd;
+x-xss-protection: 1; mode=block&#xd;
+saplbs4h: avm028002_S4H_00&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 35075.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

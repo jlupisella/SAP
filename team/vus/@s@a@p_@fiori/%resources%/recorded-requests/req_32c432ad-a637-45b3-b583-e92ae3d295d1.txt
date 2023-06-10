@@ -1,0 +1,20 @@
+GET https://sapdemo21.tricentis.com:44301/SAP/BC/APC/SAP/WEBGUI_SERVICES?window_id=000D3A44DFA11EEDA7B009E679AFE9DE&session_id=000D3A44DFA11EEDA7B009E679AFE9DE&pr_session_id=000D3A44DFA11EEDA7B009E679AFC9DE HTTP/1.1
+Host: sapdemo21.tricentis.com:44301
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Sec-WebSocket-Version: 13
+Origin: https://sapdemo21.tricentis.com:44301
+Sec-WebSocket-Protocol: v10.pcp.sap.com
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: WOHhV9CkeZxJh2UGOiIx0A==
+Connection: keep-alive, Upgrade
+Cookie: sap-usercontext=sap-language=EN&sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d
+Sec-Fetch-Dest: websocket
+Sec-Fetch-Mode: websocket
+Sec-Fetch-Site: same-origin
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+

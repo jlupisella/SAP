@@ -1,0 +1,5 @@
+<variable-list name="username-pw" offset="1" order="1" policy="4" range="4" uid="5aebe428-f5f0-4ba1-b191-406256a4b097" whenOutOfValues="CYCLE_VALUES">
+<column name="cpw" number="1"/>
+<column name="username" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAACdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQABXVzZXIxdAAFcGFzczF1cQB+AAIAAAACdAAFdXNlcjJ0AAVwYXNzMg==]]></values>
+</variable-list>

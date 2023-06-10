@@ -1,0 +1,6 @@
+<zone cloudProvider="Amazon Web Services" dnsOverrideEnabled="false"
+    latitude="36.0" longitude="-118.4" proxyType="NO_PROXY"
+    proxyTypeLg="COMMON" uid="USA West - California (San Jose 1)">
+    <description>USA West - California (San Jose 1)</description>
+    <embedded-action>a0a3a235-02a0-407c-ba7f-76137576d34e</embedded-action>
+</zone>

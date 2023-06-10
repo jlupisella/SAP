@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Save2" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="214901aa-1ada-40e3-8159-f70d9da82481" weightsEnabled="false">
+    <weighted-embedded-action uid="243907aa-a426-472f-91d0-8b0b65e4c5af"/>
+    <weighted-embedded-action uid="408fc095-24ad-411c-a3ca-9dc047893a10"/>
+    <weighted-embedded-action uid="33f8e9a1-392c-45f5-bd11-facc991604c0"/>
+    <weighted-embedded-action uid="b41d514e-0f4a-4ad5-b08a-f8f969e6625b"/>
+    <weighted-embedded-action uid="0c46d38c-d66c-4dcf-ab3e-97fc6fd16414"/>
+    <weighted-embedded-action uid="a99434b1-2eaa-43a7-9ad5-1fb5dcadefe9"/>
+</basic-logical-action-container>

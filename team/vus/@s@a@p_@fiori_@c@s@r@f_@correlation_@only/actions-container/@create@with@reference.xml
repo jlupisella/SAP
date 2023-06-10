@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CreateWithReference" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="651c27df-645b-43f8-b535-12f637eac551" weightsEnabled="false">
+    <weighted-embedded-action uid="b5e98e5e-abc2-499d-9fb3-86a97cf8c13f"/>
+    <weighted-embedded-action uid="32790aec-f3b8-4457-acb3-6617af6888c8"/>
+    <weighted-embedded-action uid="f006cddf-8ccc-43fc-8e5e-836937bcfcb3"/>
+    <weighted-embedded-action uid="b69b75e4-e8ad-4474-85df-4bd1def28d1c"/>
+    <weighted-embedded-action uid="284c6ff8-8b69-489d-b6e9-8d8d70698947"/>
+</basic-logical-action-container>

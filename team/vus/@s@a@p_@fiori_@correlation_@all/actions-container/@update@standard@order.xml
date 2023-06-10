@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UpdateStandardOrder" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="56bdf4bf-2c8a-4927-b5c5-1835229a2c1d" weightsEnabled="false">
+    <weighted-embedded-action uid="39956b26-0fca-46d0-bd78-49a46e077d1a"/>
+    <weighted-embedded-action uid="c6aa87d7-172a-4665-854a-b9f9ea8c36aa"/>
+</basic-logical-action-container>

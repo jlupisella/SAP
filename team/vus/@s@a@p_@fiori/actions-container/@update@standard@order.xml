@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UpdateStandardOrder" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="669f57b3-979e-4c8b-8733-c9ef90f3c106" weightsEnabled="false">
+    <weighted-embedded-action uid="a52ff499-63cf-4c78-972b-f66dcdf1fdec"/>
+    <weighted-embedded-action uid="d91b35f5-e870-4b2d-b1da-94f37ce13bf0"/>
+</basic-logical-action-container>

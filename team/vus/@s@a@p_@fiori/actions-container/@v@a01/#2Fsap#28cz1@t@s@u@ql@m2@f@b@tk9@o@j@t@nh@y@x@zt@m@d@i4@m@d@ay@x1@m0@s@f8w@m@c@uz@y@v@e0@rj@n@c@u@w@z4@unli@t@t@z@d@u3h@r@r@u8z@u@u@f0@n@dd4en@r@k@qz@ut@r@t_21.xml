@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhYXZtMDI4MDAyX1M0SF8wMCUzYVE0RjNCUWZ4UnliTTZDU3hRRU8zUUF0NDd4enRKQzUtRT_21"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/e2b1748f-22ed-43c8-8774-83cf91753869.zip"
+    slaProfileEnabled="false" thinkTime="1854"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e2b1748f-22ed-43c8-8774-83cf91753869">
+    <embedded-action>8cc37958-e0e5-410b-ac4a-f5449902d3cc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dd77c69a-f51d-4429-8fd1-412549d70066.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap(cz1TSUQlM2FBTk9OJTNhYXZtMDI4MDAyX1M0SF8wMCUzYVE0RjNCUWZ4UnliTTZDU3hRRU8zUUF0NDd4enRKQzUtRTZzMi1vX1gtQVRU)/bc/gui/sap/its/webgui/batch/json"
+    path="/sap(${~path})/bc/gui/sap/its/webgui/batch/json" postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p_@fiori/%resources%/recorded-artifacts/e2b1748f-22ed-43c8-8774-83cf91753869.zip"
+    recordedResponseCode="200" responseSize="95"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="8cc37958-e0e5-410b-ac4a-f5449902d3cc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_652eca07-97fc-4552-baa8-1bfd72a1f4ab</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_652eca07-97fc-4552-baa8-1bfd72a1f4ab.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="false" encodeValue="true"
+        name="~RG_WEBGUI" recordRawValue="X" separator="=" value="X" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sap-statistics" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net?%7etransaction=VA01&amp;%7enosplash=1&amp;sap-client=100&amp;sap-language=EN&amp;sap-ui-tech-hint=GUI&amp;sap-ie=edge&amp;sap-theme=sap_belize&amp;sap-target-navmode=explace&amp;sap-touch=0&amp;sap-shell=FLP1.71.20"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhKAEUARgBMAFUAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMwAwADEAMgA2ADEAMwA0ADkABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjMwMTI2MTM0OTIzWjAjBgkqhkiG9w0BCQQxFgQUBx%21VWbGdB%2fy7tNhlElw%2faYdk5S0wCQYHKoZIzjgEAwQuMCwCFBTeSfZzzwYRMaRTPa%2f%21D9%21OtzMKAhRKDHZN1GNgNQSPlBziawxpAX1Ofw%3d%3d; SAP_SESSIONID_S4H_100=8LOPj5UJSyJ-yP4mRfBcxD3zDFedgBHtqcUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="accept" value="multipart/mixed"/>
+    <header name="te" value="trailers"/>
+    <header name="moin" value="${moin}"/>
+    <header name="content-type" value="application/json;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: multipart/mixed; boundary=SAP_RESTGUI_BATCH_STEP; charset=utf-8&#xd;
+content-length: 95&#xd;
+expires: Sat, 6 May 1995 12:00:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+sap-statistics: itstotal=0,itsgendiag=0,itsgenhtml=0,itsrestgui=0,itsagiparse=0,itsagiunparse=0,itsext=0,icftotal=1,icfauth=0,icfext=27,icmtotal=142,icmreqrcv=140,icmext=2,wdtotal=143,wdreqrcv=140,wdext=3&#xd;
+sap-perf-fesrec: 1196.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"post":"value/wnd[0]/usr/ctxtVBAK-VKBUR","content":"AU01"}]]]></textPostContent>
+</http-action>

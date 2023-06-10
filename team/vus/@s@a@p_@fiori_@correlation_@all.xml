@@ -1,0 +1,38 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    slaProfileName="Firori" type="LEGACY" uid="SAP_Fiori_Correlation_All">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="be364017-5ef8-4156-97a8-bee4d36935e9"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="68fec969-d7ec-4506-9d3e-c11f77d295c5"/>
+        <weighted-embedded-action uid="be3fb434-ac81-4bd1-9c9e-3f91184d28ba"/>
+        <weighted-embedded-action uid="a947d80d-bb11-447e-88c9-c80c75c4c649"/>
+        <weighted-embedded-action uid="79cbf51f-2185-481d-8d14-cd0cf0584ece"/>
+        <weighted-embedded-action uid="2203dd31-a0f3-4a71-aa00-ae9a5ccead52"/>
+        <weighted-embedded-action uid="1b250b96-8541-4213-a289-1c10a331c08e"/>
+        <weighted-embedded-action uid="ab189869-2a05-4ab9-a1fd-458930c8b295"/>
+        <weighted-embedded-action uid="56bdf4bf-2c8a-4927-b5c5-1835229a2c1d"/>
+        <weighted-embedded-action uid="f075cb69-7784-4932-9b9a-880ebf613ce3"/>
+        <weighted-embedded-action uid="4c334185-da8e-4caa-a56b-dd85730f39cc"/>
+        <weighted-embedded-action uid="aa534c84-5861-4333-8050-7564ab8cd00d"/>
+        <weighted-embedded-action uid="7fe7894b-6245-47e5-89f2-ae3022c6849b"/>
+        <weighted-embedded-action uid="0ee6f506-4b6a-41e5-8b55-07ffc0fd3794"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="f7ed8502-336a-42f1-b416-05428f75ca20"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

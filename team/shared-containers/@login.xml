@@ -1,0 +1,29 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="Firori" uid="be364017-5ef8-4156-97a8-bee4d36935e9" weightsEnabled="false">
+    <weighted-embedded-action uid="120d95b4-fcf8-4f9b-865d-cad9b17b6baf"/>
+    <weighted-embedded-action uid="2d22a244-e836-4775-84ca-1e423cafc24f"/>
+    <weighted-embedded-action uid="5638b672-9b81-4912-a15b-becf8604ed4a"/>
+    <weighted-embedded-action uid="8007d496-393b-487b-9bb4-10ce5283c524"/>
+    <weighted-embedded-action uid="23635b20-c9a8-4234-a741-664620b75ceb"/>
+    <weighted-embedded-action uid="a01c3ba0-699f-48a2-ab90-4cb3a4b85a5c"/>
+    <weighted-embedded-action uid="3d90a954-06e7-4863-aa8c-c10e9b491220"/>
+    <weighted-embedded-action uid="318fbec9-e61b-485d-a0d7-c1c9c0989f45"/>
+    <weighted-embedded-action uid="ac67e1a8-2fc1-46a6-b51f-06321ecb4d27"/>
+    <weighted-embedded-action uid="a19c36ff-cd19-45b7-99ad-064a6039d49d"/>
+    <weighted-embedded-action uid="1e0c580d-b0dc-4837-94fd-e49f98f2f2a7"/>
+    <weighted-embedded-action uid="29bdda85-2a98-4c39-9f56-dc5c73161ea8"/>
+    <weighted-embedded-action uid="784f57b6-5530-4dea-8eaf-a5ab62428986"/>
+    <weighted-embedded-action uid="75f38746-66ca-46b1-9592-ef3a636d5084"/>
+    <weighted-embedded-action uid="6c2bd193-cf6f-42a0-ab94-a7887483b1f8"/>
+    <weighted-embedded-action uid="c5b28e7f-bc68-426d-a5cc-e3600858934c"/>
+    <weighted-embedded-action uid="49abd381-ba07-4a31-b466-b20c9613bd52"/>
+    <weighted-embedded-action uid="30ba30b9-9842-43ac-bdf8-c4f514b786b2"/>
+    <weighted-embedded-action uid="87c8b4ae-29bf-4237-ba7d-2a0d474151ee"/>
+    <weighted-embedded-action uid="b9b3d440-aa0f-48e3-be7b-22e9ed4270e4"/>
+    <weighted-embedded-action uid="eeffbad4-5d92-4ec9-8200-764d48992258"/>
+    <weighted-embedded-action uid="fc666c8f-e1e9-4959-b553-0d3c49122690"/>
+    <weighted-embedded-action uid="644e2b49-dba9-4352-8758-390d3847b0f9"/>
+</basic-logical-action-container>
+<shared-element>be364017-5ef8-4156-97a8-bee4d36935e9</shared-element>

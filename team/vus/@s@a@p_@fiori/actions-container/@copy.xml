@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Copy" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d73a41be-e0a4-4e77-bfbb-01d42dab86b7" weightsEnabled="false">
+    <weighted-embedded-action uid="fb6b92d1-bad8-4a0a-a29e-961a6c5f1c93"/>
+</basic-logical-action-container>
